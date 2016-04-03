@@ -1,0 +1,28 @@
+[14:55:58 - AWT-EventQueue-0] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux.config
+[14:55:58 - AWT-EventQueue-0] [Cooja.java:2895] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[14:56:06 - Thread-0] [Simulation.java:420] [INFO] - Simulation random seed: 123456
+[14:56:06 - Thread-0] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> > make udp-client.sky TARGET=sky 
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> fatal: Not a valid object name HEAD
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >>   CC        udp-client.c
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:62:11: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘int’
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> udp-client.c: In function ‘rand_interval’:
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:211:34: error: ‘RAND_MAX’ undeclared (first use in this function)
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:211:34: note: each undeclared identifier is reported only once for each function it appears in
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> udp-client.c:219:9: warning: implicit declaration of function ‘rand’ [-Wimplicit-function-declaration]
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> make: *** [udp-client.co] Error 1
+[14:56:06 - Thread-0] [SkyMoteType.java:171] [FATAL] - >> Process returned error code 2
+[14:56:06 - Thread-0] [SkyMoteType.java:174] [FATAL] - Compilation error: Bad return value
+[14:57:16 - Thread-2] [Simulation.java:420] [INFO] - Simulation random seed: 123456
+[14:57:16 - Thread-2] [CompileContiki.java:140] [INFO] - > make udp-client.sky TARGET=sky 
+[14:57:17 - Thread-2] [CompileContiki.java:140] [INFO] - > make udp-server.sky TARGET=sky 
+[14:57:17 - Thread-2] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-udp/udp-client.sky
+[14:57:18 - Thread-2] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-udp/udp-client.sky
+[14:57:18 - Thread-2] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-udp/udp-client.sky
+[14:57:18 - Thread-2] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-udp/udp-server.sky
+[14:57:18 - Thread-2] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-udp/udp-client.sky
+[14:57:19 - Thread-2] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[14:57:19 - Thread-2] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[14:57:22 - Thread-3] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1459688242255
+[15:01:23 - Thread-3] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1459688483133	Duration: 240878 ms	Simulated time 3295665 ms	Ratio 13.681884605484933
+[15:01:26 - AWT-EventQueue-0] [Cooja.java:3497] [INFO] - Saved to file: /home/user/contiki-3.0/HackNY.csc

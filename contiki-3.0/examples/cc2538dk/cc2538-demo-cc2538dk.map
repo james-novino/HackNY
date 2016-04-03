@@ -1,0 +1,2480 @@
+Archive member included because of file (symbol)
+
+contiki-cc2538dk.a(leds.o)    cc2538-demo.co (leds_on)
+contiki-cc2538dk.a(leds-arch.o)
+                              contiki-cc2538dk.a(leds.o) (leds_arch_init)
+contiki-cc2538dk.a(contiki-main.o)
+                              obj_cc2538dk/startup-gcc.o (main)
+contiki-cc2538dk.a(sensors.o)
+                              cc2538-demo.co (sensors_event)
+contiki-cc2538dk.a(smartrf-sensors)
+                              contiki-cc2538dk.a(sensors.o) (sensors_flags)
+contiki-cc2538dk.a(button-sensor.o)
+                              contiki-cc2538dk.a(contiki-main.o) (button_sensor_init)
+contiki-cc2538dk.a(als-sensor.o)
+                              cc2538-demo.co (als_sensor)
+contiki-cc2538dk.a(clock.o)   contiki-cc2538dk.a(contiki-main.o) (clock_init)
+contiki-cc2538dk.a(rtimer-arch.o)
+                              cc2538-demo.co (rtimer_arch_now)
+contiki-cc2538dk.a(uart.o)    contiki-cc2538dk.a(contiki-main.o) (uart_init)
+contiki-cc2538dk.a(watchdog.o)
+                              contiki-cc2538dk.a(contiki-main.o) (watchdog_init)
+contiki-cc2538dk.a(nvic.o)    contiki-cc2538dk.a(contiki-main.o) (nvic_init)
+contiki-cc2538dk.a(cpu.o)     contiki-cc2538dk.a(contiki-main.o) (cpu_cpsie)
+contiki-cc2538dk.a(sys-ctrl.o)
+                              contiki-cc2538dk.a(contiki-main.o) (sys_ctrl_init)
+contiki-cc2538dk.a(gpio.o)    contiki-cc2538dk.a(button-sensor.o) (gpio_register_callback)
+contiki-cc2538dk.a(ioc.o)     contiki-cc2538dk.a(contiki-main.o) (ioc_init)
+contiki-cc2538dk.a(adc.o)     contiki-cc2538dk.a(contiki-main.o) (adc_init)
+contiki-cc2538dk.a(crypto.o)  obj_cc2538dk/startup-gcc.o (crypto_isr)
+contiki-cc2538dk.a(cc2538-rf.o)
+                              obj_cc2538dk/startup-gcc.o (cc2538_rf_rx_tx_isr)
+contiki-cc2538dk.a(udma.o)    contiki-cc2538dk.a(contiki-main.o) (udma_init)
+contiki-cc2538dk.a(lpm.o)     contiki-cc2538dk.a(rtimer-arch.o) (lpm_exit)
+contiki-cc2538dk.a(dbg.o)     contiki-cc2538dk.a(contiki-main.o) (puts)
+contiki-cc2538dk.a(ieee-addr.o)
+                              contiki-cc2538dk.a(contiki-main.o) (ieee_addr_cpy_to)
+contiki-cc2538dk.a(cc2538-temp-sen)
+                              cc2538-demo.co (cc2538_temp_sensor)
+contiki-cc2538dk.a(vdd3-sensor.o)
+                              cc2538-demo.co (vdd3_sensor)
+contiki-cc2538dk.a(dbg-printf.o)
+                              cc2538-demo.co (printf)
+contiki-cc2538dk.a(strformat.o)
+                              contiki-cc2538dk.a(dbg-printf.o) (format_str_v)
+contiki-cc2538dk.a(autostart.o)
+                              contiki-cc2538dk.a(contiki-main.o) (autostart_start)
+contiki-cc2538dk.a(ctimer.o)  contiki-cc2538dk.a(contiki-main.o) (ctimer_init)
+contiki-cc2538dk.a(energest.o)
+                              contiki-cc2538dk.a(contiki-main.o) (energest_init)
+contiki-cc2538dk.a(etimer.o)  contiki-cc2538dk.a(clock.o) (etimer_request_poll)
+contiki-cc2538dk.a(process.o)
+                              contiki-cc2538dk.a(sensors.o) (process_alloc_event)
+contiki-cc2538dk.a(rtimer.o)  contiki-cc2538dk.a(contiki-main.o) (rtimer_init)
+contiki-cc2538dk.a(timer.o)   contiki-cc2538dk.a(button-sensor.o) (timer_set)
+contiki-cc2538dk.a(serial-line.o)
+                              cc2538-demo.co (serial_line_event_message)
+contiki-cc2538dk.a(list.o)    contiki-cc2538dk.a(ctimer.o) (list_init)
+contiki-cc2538dk.a(random.o)  contiki-cc2538dk.a(contiki-main.o) (random_init)
+contiki-cc2538dk.a(ringbuf.o)
+                              contiki-cc2538dk.a(serial-line.o) (ringbuf_init)
+contiki-cc2538dk.a(broadcast.o)
+                              cc2538-demo.co (broadcast_open)
+contiki-cc2538dk.a(channel.o)
+                              contiki-cc2538dk.a(broadcast.o) (channel_set_attributes)
+contiki-cc2538dk.a(rime.o)    contiki-cc2538dk.a(contiki-main.o) (rime_driver)
+contiki-cc2538dk.a(linkaddr.o)
+                              contiki-cc2538dk.a(broadcast.o) (linkaddr_copy)
+contiki-cc2538dk.a(netstack.o)
+                              contiki-cc2538dk.a(contiki-main.o) (netstack_init)
+contiki-cc2538dk.a(packetbuf.o)
+                              contiki-cc2538dk.a(rime.o) (packetbuf_compact)
+contiki-cc2538dk.a(queuebuf.o)
+                              contiki-cc2538dk.a(rime.o) (queuebuf_init)
+contiki-cc2538dk.a(csma.o)    contiki-cc2538dk.a(contiki-main.o) (csma_driver)
+contiki-cc2538dk.a(mac.o)     contiki-cc2538dk.a(csma.o) (mac_call_sent_callback)
+contiki-cc2538dk.a(nullrdc.o)
+                              contiki-cc2538dk.a(contiki-main.o) (nullrdc_driver)
+contiki-cc2538dk.a(contikimac-fram)
+                              contiki-cc2538dk.a(nullrdc.o) (contikimac_framer)
+contiki-cc2538dk.a(nullsec.o)
+                              contiki-cc2538dk.a(rime.o) (nullsec_driver)
+contiki-cc2538dk.a(memb.o)    contiki-cc2538dk.a(queuebuf.o) (memb_init)
+contiki-cc2538dk.a(abc.o)     contiki-cc2538dk.a(broadcast.o) (abc_open)
+contiki-cc2538dk.a(announcement.o)
+                              contiki-cc2538dk.a(rime.o) (announcement_init)
+contiki-cc2538dk.a(broadcast-annou)
+                              contiki-cc2538dk.a(rime.o) (broadcast_announcement_init)
+contiki-cc2538dk.a(chameleon.o)
+                              contiki-cc2538dk.a(rime.o) (chameleon_init)
+contiki-cc2538dk.a(framer-802154.o)
+                              contiki-cc2538dk.a(contikimac-fram) (framer_802154)
+contiki-cc2538dk.a(framer.o)  contiki-cc2538dk.a(framer-802154.o) (framer_canonical_create_and_secure)
+contiki-cc2538dk.a(mac-sequence.o)
+                              contiki-cc2538dk.a(nullrdc.o) (mac_sequence_is_duplicate)
+contiki-cc2538dk.a(chameleon-bitop)
+                              contiki-cc2538dk.a(chameleon.o) (chameleon_bitopt)
+contiki-cc2538dk.a(frame802154.o)
+                              contiki-cc2538dk.a(framer-802154.o) (frame802154_hdrlen)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                              contiki-cc2538dk.a(strformat.o) (__aeabi_uldivmod)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o) (__divdi3)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                              /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o) (__udivdi3)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+                              contiki-cc2538dk.a(linkaddr.o) (memcmp)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+                              contiki-cc2538dk.a(packetbuf.o) (memcpy)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+                              contiki-cc2538dk.a(gpio.o) (memset)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+                              contiki-cc2538dk.a(sensors.o) (strlen)
+/usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strncmp.o)
+                              contiki-cc2538dk.a(sensors.o) (strncmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+packetbuf_addrs     0x8               contiki-cc2538dk.a(packetbuf.o)
+linkaddr_node_addr  0x2               contiki-cc2538dk.a(linkaddr.o)
+packetbuf_attrs     0x34              contiki-cc2538dk.a(packetbuf.o)
+sensors_flags       0x9               contiki-cc2538dk.a(smartrf-sensors)
+serial_line_event_message
+                    0x1               contiki-cc2538dk.a(serial-line.o)
+sensors_event       0x1               contiki-cc2538dk.a(sensors.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj_cc2538dk/startup-gcc.o
+ .data          0x00000000        0x0 obj_cc2538dk/startup-gcc.o
+ .bss           0x00000000        0x0 obj_cc2538dk/startup-gcc.o
+ .text          0x00000000        0x0 cc2538-demo.co
+ .data          0x00000000        0x0 cc2538-demo.co
+ .bss           0x00000000        0x0 cc2538-demo.co
+ .text          0x00000000        0x0 contiki-cc2538dk.a(leds.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(leds.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(leds.o)
+ .text.leds_get
+                0x00000000        0x4 contiki-cc2538dk.a(leds.o)
+ .text.leds_set
+                0x00000000        0xc contiki-cc2538dk.a(leds.o)
+ .text.leds_blink
+                0x00000000       0x28 contiki-cc2538dk.a(leds.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(leds-arch.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(leds-arch.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(leds-arch.o)
+ .text.leds_arch_get
+                0x00000000        0xc contiki-cc2538dk.a(leds-arch.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(contiki-main.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(contiki-main.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(contiki-main.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(sensors.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(sensors.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(sensors.o)
+ .text.sensors_first
+                0x00000000        0xc contiki-cc2538dk.a(sensors.o)
+ .text.sensors_next
+                0x00000000       0x2c contiki-cc2538dk.a(sensors.o)
+ .text.sensors_find
+                0x00000000       0x3c contiki-cc2538dk.a(sensors.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(smartrf-sensors)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(smartrf-sensors)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(smartrf-sensors)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(button-sensor.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(button-sensor.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(button-sensor.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(als-sensor.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(als-sensor.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(als-sensor.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(clock.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(clock.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(clock.o)
+ .text.clock_set_seconds
+                0x00000000       0x10 contiki-cc2538dk.a(clock.o)
+ .text.clock_seconds
+                0x00000000       0x14 contiki-cc2538dk.a(clock.o)
+ .text.clock_wait
+                0x00000000       0x16 contiki-cc2538dk.a(clock.o)
+ .text.clock_delay
+                0x00000000        0x6 contiki-cc2538dk.a(clock.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(rtimer-arch.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(rtimer-arch.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(rtimer-arch.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(uart.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(uart.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(uart.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(watchdog.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(watchdog.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(watchdog.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(nvic.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(nvic.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(nvic.o)
+ .text.nvic_interrupt_en_restore
+                0x00000000       0x1c contiki-cc2538dk.a(nvic.o)
+ .text.nvic_interrupt_en_save
+                0x00000000       0x28 contiki-cc2538dk.a(nvic.o)
+ .text.nvic_interrupt_pend
+                0x00000000       0x18 contiki-cc2538dk.a(nvic.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(cpu.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(cpu.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(cpu.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(sys-ctrl.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(sys-ctrl.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(sys-ctrl.o)
+ .text.sys_ctrl_get_sys_clock
+                0x00000000       0x18 contiki-cc2538dk.a(sys-ctrl.o)
+ .text.sys_ctrl_get_io_clock
+                0x00000000       0x18 contiki-cc2538dk.a(sys-ctrl.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(gpio.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(gpio.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(gpio.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(ioc.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(ioc.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(ioc.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(adc.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(adc.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(adc.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(crypto.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(crypto.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(crypto.o)
+ .text.permit_pm1
+                0x00000000       0x10 contiki-cc2538dk.a(crypto.o)
+ .text.crypto_enable
+                0x00000000       0x20 contiki-cc2538dk.a(crypto.o)
+ .text.crypto_init
+                0x00000000       0x3c contiki-cc2538dk.a(crypto.o)
+ .text.crypto_disable
+                0x00000000       0x20 contiki-cc2538dk.a(crypto.o)
+ .text.crypto_register_process_notification
+                0x00000000        0xc contiki-cc2538dk.a(crypto.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(cc2538-rf.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(cc2538-rf.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.cc2538_rf_set_promiscous_mode
+                0x00000000        0x4 contiki-cc2538dk.a(cc2538-rf.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(udma.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(udma.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(udma.o)
+ .text.udma_set_channel_assignment
+                0x00000000       0x20 contiki-cc2538dk.a(udma.o)
+ .text.udma_channel_disable
+                0x00000000       0x14 contiki-cc2538dk.a(udma.o)
+ .text.udma_channel_use_alternate
+                0x00000000       0x18 contiki-cc2538dk.a(udma.o)
+ .text.udma_channel_use_primary
+                0x00000000       0x14 contiki-cc2538dk.a(udma.o)
+ .text.udma_channel_prio_set_high
+                0x00000000       0x18 contiki-cc2538dk.a(udma.o)
+ .text.udma_channel_prio_set_default
+                0x00000000       0x14 contiki-cc2538dk.a(udma.o)
+ .text.udma_channel_use_burst
+                0x00000000       0x18 contiki-cc2538dk.a(udma.o)
+ .text.udma_channel_use_single
+                0x00000000       0x14 contiki-cc2538dk.a(udma.o)
+ .text.udma_channel_mask_clr
+                0x00000000       0x14 contiki-cc2538dk.a(udma.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(lpm.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(lpm.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(lpm.o)
+ .text.lpm_set_max_pm
+                0x00000000       0x10 contiki-cc2538dk.a(lpm.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(dbg.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(dbg.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(dbg.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(ieee-addr.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(ieee-addr.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(ieee-addr.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(cc2538-temp-sen)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(cc2538-temp-sen)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(cc2538-temp-sen)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(vdd3-sensor.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(vdd3-sensor.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(vdd3-sensor.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(dbg-printf.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(dbg-printf.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(dbg-printf.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(strformat.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(strformat.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(strformat.o)
+ .text.format_str
+                0x00000000       0x1a contiki-cc2538dk.a(strformat.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(autostart.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(autostart.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(autostart.o)
+ .text.autostart_exit
+                0x00000000       0x12 contiki-cc2538dk.a(autostart.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(ctimer.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(ctimer.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(ctimer.o)
+ .text.ctimer_reset
+                0x00000000       0x38 contiki-cc2538dk.a(ctimer.o)
+ .text.ctimer_restart
+                0x00000000       0x38 contiki-cc2538dk.a(ctimer.o)
+ .text.ctimer_expired
+                0x00000000       0x34 contiki-cc2538dk.a(ctimer.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(energest.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(energest.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(energest.o)
+ .text.energest_type_set
+                0x00000000        0x2 contiki-cc2538dk.a(energest.o)
+ .text.energest_type_time
+                0x00000000        0x4 contiki-cc2538dk.a(energest.o)
+ .text.energest_flush
+                0x00000000        0x2 contiki-cc2538dk.a(energest.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(etimer.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(etimer.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(etimer.o)
+ .text.etimer_reset
+                0x00000000       0x12 contiki-cc2538dk.a(etimer.o)
+ .text.etimer_restart
+                0x00000000       0x12 contiki-cc2538dk.a(etimer.o)
+ .text.etimer_adjust
+                0x00000000        0xa contiki-cc2538dk.a(etimer.o)
+ .text.etimer_expired
+                0x00000000        0xa contiki-cc2538dk.a(etimer.o)
+ .text.etimer_expiration_time
+                0x00000000        0x6 contiki-cc2538dk.a(etimer.o)
+ .text.etimer_start_time
+                0x00000000        0x4 contiki-cc2538dk.a(etimer.o)
+ .text.etimer_next_expiration_time
+                0x00000000       0x14 contiki-cc2538dk.a(etimer.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(process.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(process.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(process.o)
+ .text.process_exit
+                0x00000000        0xc contiki-cc2538dk.a(process.o)
+ .text.process_is_running
+                0x00000000        0xa contiki-cc2538dk.a(process.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(rtimer.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(rtimer.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(rtimer.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(timer.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(timer.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(timer.o)
+ .text.timer_reset
+                0x00000000        0xa contiki-cc2538dk.a(timer.o)
+ .text.timer_restart
+                0x00000000        0xc contiki-cc2538dk.a(timer.o)
+ .text.timer_remaining
+                0x00000000       0x10 contiki-cc2538dk.a(timer.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(serial-line.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(serial-line.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(serial-line.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(list.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(list.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(list.o)
+ .text.list_copy
+                0x00000000        0x6 contiki-cc2538dk.a(list.o)
+ .text.list_chop
+                0x00000000       0x1e contiki-cc2538dk.a(list.o)
+ .text.list_pop
+                0x00000000        0xc contiki-cc2538dk.a(list.o)
+ .text.list_insert
+                0x00000000       0x10 contiki-cc2538dk.a(list.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(random.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(random.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(random.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(ringbuf.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(ringbuf.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(ringbuf.o)
+ .text.ringbuf_size
+                0x00000000        0x6 contiki-cc2538dk.a(ringbuf.o)
+ .text.ringbuf_elements
+                0x00000000        0xc contiki-cc2538dk.a(ringbuf.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(broadcast.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(broadcast.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(broadcast.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(channel.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(channel.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(channel.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(rime.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(rime.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(rime.o)
+ .text.rime_sniffer_add
+                0x00000000        0xc contiki-cc2538dk.a(rime.o)
+ .text.rime_sniffer_remove
+                0x00000000        0xc contiki-cc2538dk.a(rime.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(linkaddr.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(linkaddr.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(linkaddr.o)
+ .text.linkaddr_set_node_addr
+                0x00000000        0xc contiki-cc2538dk.a(linkaddr.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(netstack.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(netstack.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(netstack.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(packetbuf.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(packetbuf.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(packetbuf.o)
+ .text.packetbuf_clear_hdr
+                0x00000000        0xc contiki-cc2538dk.a(packetbuf.o)
+ .text.packetbuf_copyto_hdr
+                0x00000000       0x20 contiki-cc2538dk.a(packetbuf.o)
+ .text.packetbuf_hdr_remove
+                0x00000000       0x10 contiki-cc2538dk.a(packetbuf.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(queuebuf.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(queuebuf.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(queuebuf.o)
+ .text.queuebuf_numfree
+                0x00000000        0xc contiki-cc2538dk.a(queuebuf.o)
+ .text.queuebuf_update_from_packetbuf
+                0x00000000       0x1c contiki-cc2538dk.a(queuebuf.o)
+ .text.queuebuf_dataptr
+                0x00000000       0x18 contiki-cc2538dk.a(queuebuf.o)
+ .text.queuebuf_datalen
+                0x00000000        0x8 contiki-cc2538dk.a(queuebuf.o)
+ .text.queuebuf_addr
+                0x00000000        0xa contiki-cc2538dk.a(queuebuf.o)
+ .text.queuebuf_debug_print
+                0x00000000        0x2 contiki-cc2538dk.a(queuebuf.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(csma.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(csma.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(csma.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(mac.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(mac.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(mac.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(nullrdc.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(nullrdc.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(nullrdc.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(contikimac-fram)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(contikimac-fram)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(contikimac-fram)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(nullsec.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(nullsec.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(nullsec.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(memb.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(memb.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(memb.o)
+ .text.memb_numfree
+                0x00000000       0x1c contiki-cc2538dk.a(memb.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(abc.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(abc.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(abc.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(announcement.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(announcement.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(announcement.o)
+ .text.announcement_register
+                0x00000000       0x34 contiki-cc2538dk.a(announcement.o)
+ .text.announcement_remove
+                0x00000000        0xc contiki-cc2538dk.a(announcement.o)
+ .text.announcement_remove_value
+                0x00000000       0x20 contiki-cc2538dk.a(announcement.o)
+ .text.announcement_set_value
+                0x00000000       0x24 contiki-cc2538dk.a(announcement.o)
+ .text.announcement_bump
+                0x00000000       0x20 contiki-cc2538dk.a(announcement.o)
+ .text.announcement_listen
+                0x00000000       0x10 contiki-cc2538dk.a(announcement.o)
+ .text.announcement_register_listen_callback
+                0x00000000        0xc contiki-cc2538dk.a(announcement.o)
+ .bss.listen_callback
+                0x00000000        0x4 contiki-cc2538dk.a(announcement.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(broadcast-annou)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(broadcast-annou)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(broadcast-annou)
+ .text.broadcast_announcement_stop
+                0x00000000       0x24 contiki-cc2538dk.a(broadcast-annou)
+ .text.broadcast_announcement_beacon_interval
+                0x00000000        0xc contiki-cc2538dk.a(broadcast-annou)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(chameleon.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(chameleon.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(chameleon.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(framer-802154.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(framer-802154.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(framer-802154.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(framer.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(framer.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(framer.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(mac-sequence.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(mac-sequence.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(mac-sequence.o)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(chameleon-bitop)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(chameleon-bitop)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(chameleon-bitop)
+ .text          0x00000000        0x0 contiki-cc2538dk.a(frame802154.o)
+ .data          0x00000000        0x0 contiki-cc2538dk.a(frame802154.o)
+ .bss           0x00000000        0x0 contiki-cc2538dk.a(frame802154.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+ .text.strlen   0x00000000       0x5c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+ .debug_frame   0x00000000       0x20 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000       0x2d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strncmp.o)
+ .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strncmp.o)
+ .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strncmp.o)
+ .text.strncmp  0x00000000       0x94 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strncmp.o)
+ .debug_frame   0x00000000       0x54 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x00000000       0x2d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strncmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00200000         0x0007ffd4         xr
+FLASH_CCA        0x0027ffd4         0x0000002c         xr
+SRAM             0x20000000         0x00008000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj_cc2538dk/startup-gcc.o
+LOAD cc2538-demo.co
+LOAD contiki-cc2538dk.a
+START GROUP
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a
+LOAD /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a
+END GROUP
+
+.text           0x00200000     0x4b23
+                0x00200000                _text = .
+ *(SORT(.vectors))
+ .vectors       0x00200000      0x28c obj_cc2538dk/startup-gcc.o
+                0x00200000                vectors
+ *(SORT(.text*))
+ .text.reset_handler
+                0x0020028c       0x40 obj_cc2538dk/startup-gcc.o
+                0x0020028c                reset_handler
+ .text.process_thread_cc2538_demo_process
+                0x002002cc      0x160 cc2538-demo.co
+ .text.broadcast_recv
+                0x0020042c       0x24 cc2538-demo.co
+ .text.leds_init
+                0x00200450       0x14 contiki-cc2538dk.a(leds.o)
+                0x00200450                leds_init
+ .text.leds_on  0x00200464       0x10 contiki-cc2538dk.a(leds.o)
+                0x00200464                leds_on
+ .text.leds_off
+                0x00200474       0x14 contiki-cc2538dk.a(leds.o)
+                0x00200474                leds_off
+ .text.leds_toggle
+                0x00200488       0x10 contiki-cc2538dk.a(leds.o)
+                0x00200488                leds_toggle
+ .text.leds_arch_init
+                0x00200498       0x10 contiki-cc2538dk.a(leds-arch.o)
+                0x00200498                leds_arch_init
+ .text.leds_arch_set
+                0x002004a8        0xc contiki-cc2538dk.a(leds-arch.o)
+                0x002004a8                leds_arch_set
+ .text.startup.main
+                0x002004b4      0x174 contiki-cc2538dk.a(contiki-main.o)
+                0x002004b4                main
+ .text.process_thread_sensors_process
+                0x00200628       0xd4 contiki-cc2538dk.a(sensors.o)
+ .text.sensors_changed
+                0x002006fc       0x38 contiki-cc2538dk.a(sensors.o)
+                0x002006fc                sensors_changed
+ .text.config_select
+                0x00200734       0x30 contiki-cc2538dk.a(button-sensor.o)
+ .text.config_left
+                0x00200764       0x30 contiki-cc2538dk.a(button-sensor.o)
+ .text.config_right
+                0x00200794       0x30 contiki-cc2538dk.a(button-sensor.o)
+ .text.config_up
+                0x002007c4       0x30 contiki-cc2538dk.a(button-sensor.o)
+ .text.config_down
+                0x002007f4       0x30 contiki-cc2538dk.a(button-sensor.o)
+ .text.btn_callback
+                0x00200824       0x64 contiki-cc2538dk.a(button-sensor.o)
+ .text.button_sensor_init
+                0x00200888        0xc contiki-cc2538dk.a(button-sensor.o)
+                0x00200888                button_sensor_init
+ .text.value    0x00200894       0x24 contiki-cc2538dk.a(als-sensor.o)
+ .text.configure
+                0x002008b8       0x54 contiki-cc2538dk.a(als-sensor.o)
+ .text.update_ticks
+                0x0020090c       0x4c contiki-cc2538dk.a(clock.o)
+ .text.clock_init
+                0x00200958       0x50 contiki-cc2538dk.a(clock.o)
+                0x00200958                clock_init
+ .text.clock_time
+                0x002009a8       0x14 contiki-cc2538dk.a(clock.o)
+                0x002009a8                clock_time
+ .text.clock_delay_usec
+                0x002009bc       0x1c contiki-cc2538dk.a(clock.o)
+                0x002009bc                clock_delay_usec
+ .text.clock_adjust
+                0x002009d8       0x20 contiki-cc2538dk.a(clock.o)
+                0x002009d8                clock_adjust
+ .text.rtimer_arch_next_trigger
+                0x002009f8        0xc contiki-cc2538dk.a(rtimer-arch.o)
+                0x002009f8                rtimer_arch_next_trigger
+ .text.rtimer_arch_now
+                0x00200a04       0x2c contiki-cc2538dk.a(rtimer-arch.o)
+                0x00200a04                rtimer_arch_now
+ .text.rtimer_arch_schedule
+                0x00200a30       0x58 contiki-cc2538dk.a(rtimer-arch.o)
+                0x00200a30                rtimer_arch_schedule
+ .text.rtimer_isr
+                0x00200a88       0x24 contiki-cc2538dk.a(rtimer-arch.o)
+                0x00200a88                rtimer_isr
+ .text.permit_pm1
+                0x00200aac       0x2c contiki-cc2538dk.a(uart.o)
+ .text.uart_isr
+                0x00200ad8       0x64 contiki-cc2538dk.a(uart.o)
+ .text.uart_init
+                0x00200b3c      0x1ac contiki-cc2538dk.a(uart.o)
+                0x00200b3c                uart_init
+ .text.uart_set_input
+                0x00200ce8       0x10 contiki-cc2538dk.a(uart.o)
+                0x00200ce8                uart_set_input
+ .text.uart_write_byte
+                0x00200cf8       0x1c contiki-cc2538dk.a(uart.o)
+                0x00200cf8                uart_write_byte
+ .text.watchdog_init
+                0x00200d14        0xc contiki-cc2538dk.a(watchdog.o)
+                0x00200d14                watchdog_init
+ .text.watchdog_start
+                0x00200d20        0xc contiki-cc2538dk.a(watchdog.o)
+                0x00200d20                watchdog_start
+ .text.watchdog_periodic
+                0x00200d2c       0x10 contiki-cc2538dk.a(watchdog.o)
+                0x00200d2c                watchdog_periodic
+ .text.watchdog_reboot
+                0x00200d3c       0x14 contiki-cc2538dk.a(watchdog.o)
+                0x00200d3c                watchdog_reboot
+ .text.nvic_init
+                0x00200d50       0x3c contiki-cc2538dk.a(nvic.o)
+                0x00200d50                nvic_init
+ .text.nvic_interrupt_enable
+                0x00200d8c       0x18 contiki-cc2538dk.a(nvic.o)
+                0x00200d8c                nvic_interrupt_enable
+ .text.nvic_interrupt_disable
+                0x00200da4       0x18 contiki-cc2538dk.a(nvic.o)
+                0x00200da4                nvic_interrupt_disable
+ .text.nvic_interrupt_unpend
+                0x00200dbc       0x18 contiki-cc2538dk.a(nvic.o)
+                0x00200dbc                nvic_interrupt_unpend
+ .text.sys_ctrl_init
+                0x00200dd4       0x28 contiki-cc2538dk.a(sys-ctrl.o)
+                0x00200dd4                sys_ctrl_init
+ .text.sys_ctrl_reset
+                0x00200dfc        0xc contiki-cc2538dk.a(sys-ctrl.o)
+                0x00200dfc                sys_ctrl_reset
+ .text.gpio_register_callback
+                0x00200e08       0x10 contiki-cc2538dk.a(gpio.o)
+                0x00200e08                gpio_register_callback
+ .text.notify   0x00200e18       0x30 contiki-cc2538dk.a(gpio.o)
+                0x00200e18                notify
+ .text.gpio_port_isr
+                0x00200e48       0x50 contiki-cc2538dk.a(gpio.o)
+ .text.gpio_init
+                0x00200e98       0x10 contiki-cc2538dk.a(gpio.o)
+                0x00200e98                gpio_init
+ .text.ioc_init
+                0x00200ea8       0x1c contiki-cc2538dk.a(ioc.o)
+                0x00200ea8                ioc_init
+ .text.ioc_set_over
+                0x00200ec4       0x14 contiki-cc2538dk.a(ioc.o)
+                0x00200ec4                ioc_set_over
+ .text.ioc_set_sel
+                0x00200ed8       0x14 contiki-cc2538dk.a(ioc.o)
+                0x00200ed8                ioc_set_sel
+ .text.adc_init
+                0x00200eec       0x10 contiki-cc2538dk.a(adc.o)
+                0x00200eec                adc_init
+ .text.adc_get  0x00200efc       0x78 contiki-cc2538dk.a(adc.o)
+                0x00200efc                adc_get
+ .text.crypto_isr
+                0x00200f74       0x24 contiki-cc2538dk.a(crypto.o)
+                0x00200f74                crypto_isr
+ .text.on       0x00200f98       0x2c contiki-cc2538dk.a(cc2538-rf.o)
+ .text.off      0x00200fc4       0x38 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.set_channel
+                0x00200ffc       0x48 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.channel_clear
+                0x00201044       0x3c contiki-cc2538dk.a(cc2538-rf.o)
+ .text.receiving_packet
+                0x00201080       0x18 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.pending_packet
+                0x00201098       0x10 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.get_value
+                0x002010a8      0x118 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.prepare  0x002011c0       0x64 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.transmit
+                0x00201224       0x8c contiki-cc2538dk.a(cc2538-rf.o)
+ .text.set_frame_filtering
+                0x002012b0       0x18 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.set_value
+                0x002012c8       0xd4 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.get_object
+                0x0020139c       0x30 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.set_object
+                0x002013cc       0x30 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.read     0x002013fc       0xc4 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.init     0x002014c0       0xcc contiki-cc2538dk.a(cc2538-rf.o)
+ .text.process_thread_cc2538_rf_process
+                0x0020158c       0x74 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.cc2538_rf_rx_tx_isr
+                0x00201600       0x18 contiki-cc2538dk.a(cc2538-rf.o)
+                0x00201600                cc2538_rf_rx_tx_isr
+ .text.cc2538_rf_err_isr
+                0x00201618       0x28 contiki-cc2538dk.a(cc2538-rf.o)
+                0x00201618                cc2538_rf_err_isr
+ .text.udma_init
+                0x00201640       0x30 contiki-cc2538dk.a(udma.o)
+                0x00201640                udma_init
+ .text.udma_set_channel_src
+                0x00201670       0x10 contiki-cc2538dk.a(udma.o)
+                0x00201670                udma_set_channel_src
+ .text.udma_set_channel_dst
+                0x00201680       0x14 contiki-cc2538dk.a(udma.o)
+                0x00201680                udma_set_channel_dst
+ .text.udma_set_channel_control_word
+                0x00201694       0x14 contiki-cc2538dk.a(udma.o)
+                0x00201694                udma_set_channel_control_word
+ .text.udma_channel_enable
+                0x002016a8       0x18 contiki-cc2538dk.a(udma.o)
+                0x002016a8                udma_channel_enable
+ .text.udma_channel_mask_set
+                0x002016c0       0x18 contiki-cc2538dk.a(udma.o)
+                0x002016c0                udma_channel_mask_set
+ .text.udma_channel_sw_request
+                0x002016d8       0x18 contiki-cc2538dk.a(udma.o)
+                0x002016d8                udma_channel_sw_request
+ .text.udma_channel_get_mode
+                0x002016f0       0x1c contiki-cc2538dk.a(udma.o)
+                0x002016f0                udma_channel_get_mode
+ .text.udma_isr
+                0x0020170c       0x10 contiki-cc2538dk.a(udma.o)
+                0x0020170c                udma_isr
+ .text.udma_err_isr
+                0x0020171c        0xc contiki-cc2538dk.a(udma.o)
+                0x0020171c                udma_err_isr
+ .text.select_32_mhz_xosc
+                0x00201728       0x2c contiki-cc2538dk.a(lpm.o)
+ .text.lpm_exit
+                0x00201754       0x34 contiki-cc2538dk.a(lpm.o)
+                0x00201754                lpm_exit
+ .text.lpm_enter
+                0x00201788       0xb0 contiki-cc2538dk.a(lpm.o)
+                0x00201788                lpm_enter
+ .text.lpm_register_peripheral
+                0x00201838       0x20 contiki-cc2538dk.a(lpm.o)
+                0x00201838                lpm_register_peripheral
+ .text.lpm_init
+                0x00201858       0x24 contiki-cc2538dk.a(lpm.o)
+                0x00201858                lpm_init
+ .text.ieee_addr_cpy_to
+                0x0020187c       0x74 contiki-cc2538dk.a(ieee-addr.o)
+                0x0020187c                ieee_addr_cpy_to
+ .text.printf   0x002018f0       0x20 contiki-cc2538dk.a(dbg-printf.o)
+                0x002018f0                printf
+ .text.fill_space
+                0x00201910       0x34 contiki-cc2538dk.a(strformat.o)
+ .text.format_str_v
+                0x00201944      0x6e8 contiki-cc2538dk.a(strformat.o)
+                0x00201944                format_str_v
+ .text.process_thread_ctimer_process
+                0x0020202c       0x80 contiki-cc2538dk.a(ctimer.o)
+ .text.ctimer_init
+                0x002020ac       0x28 contiki-cc2538dk.a(ctimer.o)
+                0x002020ac                ctimer_init
+ .text.ctimer_set
+                0x002020d4       0x40 contiki-cc2538dk.a(ctimer.o)
+                0x002020d4                ctimer_set
+ .text.ctimer_stop
+                0x00202114       0x2c contiki-cc2538dk.a(ctimer.o)
+                0x00202114                ctimer_stop
+ .text.update_time
+                0x00202140       0x44 contiki-cc2538dk.a(etimer.o)
+ .text.etimer_request_poll
+                0x00202184        0xc contiki-cc2538dk.a(etimer.o)
+                0x00202184                etimer_request_poll
+ .text.process_thread_etimer_process
+                0x00202190       0x94 contiki-cc2538dk.a(etimer.o)
+ .text.add_timer
+                0x00202224       0x40 contiki-cc2538dk.a(etimer.o)
+ .text.etimer_pending
+                0x00202264       0x10 contiki-cc2538dk.a(etimer.o)
+                0x00202264                etimer_pending
+ .text.etimer_stop
+                0x00202274       0x34 contiki-cc2538dk.a(etimer.o)
+                0x00202274                etimer_stop
+ .text.call_process.part.0
+                0x002022a8       0x38 contiki-cc2538dk.a(process.o)
+ .text.exit_process
+                0x002022e0       0x80 contiki-cc2538dk.a(process.o)
+ .text.do_poll  0x00202360       0x30 contiki-cc2538dk.a(process.o)
+ .text.process_alloc_event
+                0x00202390       0x10 contiki-cc2538dk.a(process.o)
+                0x00202390                process_alloc_event
+ .text.process_init
+                0x002023a0       0x30 contiki-cc2538dk.a(process.o)
+                0x002023a0                process_init
+ .text.process_run
+                0x002023d0       0xb0 contiki-cc2538dk.a(process.o)
+                0x002023d0                process_run
+ .text.process_nevents
+                0x00202480       0x14 contiki-cc2538dk.a(process.o)
+                0x00202480                process_nevents
+ .text.process_post
+                0x00202494       0x44 contiki-cc2538dk.a(process.o)
+                0x00202494                process_post
+ .text.process_post_synch
+                0x002024d8       0x14 contiki-cc2538dk.a(process.o)
+                0x002024d8                process_post_synch
+ .text.process_start
+                0x002024ec       0x30 contiki-cc2538dk.a(process.o)
+                0x002024ec                process_start
+ .text.process_poll
+                0x0020251c       0x18 contiki-cc2538dk.a(process.o)
+                0x0020251c                process_poll
+ .text.rtimer_set
+                0x00202534       0x24 contiki-cc2538dk.a(rtimer.o)
+                0x00202534                rtimer_set
+ .text.rtimer_run_next
+                0x00202558       0x28 contiki-cc2538dk.a(rtimer.o)
+                0x00202558                rtimer_run_next
+ .text.process_thread_serial_line_process
+                0x00202580       0x98 contiki-cc2538dk.a(serial-line.o)
+ .text.serial_line_input_byte
+                0x00202618       0x44 contiki-cc2538dk.a(serial-line.o)
+                0x00202618                serial_line_input_byte
+ .text.serial_line_init
+                0x0020265c       0x24 contiki-cc2538dk.a(serial-line.o)
+                0x0020265c                serial_line_init
+ .text.random_rand
+                0x00202680       0x20 contiki-cc2538dk.a(random.o)
+                0x00202680                random_rand
+ .text.random_init
+                0x002026a0       0x78 contiki-cc2538dk.a(random.o)
+                0x002026a0                random_init
+ .text.broadcast_open
+                0x00202718       0x24 contiki-cc2538dk.a(broadcast.o)
+                0x00202718                broadcast_open
+ .text.broadcast_send
+                0x0020273c       0x1c contiki-cc2538dk.a(broadcast.o)
+                0x0020273c                broadcast_send
+ .text.channel_init
+                0x00202758        0xc contiki-cc2538dk.a(channel.o)
+                0x00202758                channel_init
+ .text.channel_open
+                0x00202764       0x10 contiki-cc2538dk.a(channel.o)
+                0x00202764                channel_open
+ .text.channel_close
+                0x00202774        0xc contiki-cc2538dk.a(channel.o)
+                0x00202774                channel_close
+ .text.channel_lookup
+                0x00202780       0x20 contiki-cc2538dk.a(channel.o)
+                0x00202780                channel_lookup
+ .text.packet_sent
+                0x002027a0       0x34 contiki-cc2538dk.a(rime.o)
+ .text.input    0x002027d4       0x34 contiki-cc2538dk.a(rime.o)
+ .text.rime_output
+                0x00202808       0x24 contiki-cc2538dk.a(rime.o)
+                0x00202808                rime_output
+ .text.netstack_init
+                0x0020282c       0x30 contiki-cc2538dk.a(netstack.o)
+                0x0020282c                netstack_init
+ .text.packetbuf_compact
+                0x0020285c       0x34 contiki-cc2538dk.a(packetbuf.o)
+                0x0020285c                packetbuf_compact
+ .text.packetbuf_copyto
+                0x00202890       0x50 contiki-cc2538dk.a(packetbuf.o)
+                0x00202890                packetbuf_copyto
+ .text.packetbuf_hdrreduce
+                0x002028e0       0x2c contiki-cc2538dk.a(packetbuf.o)
+                0x002028e0                packetbuf_hdrreduce
+ .text.packetbuf_set_datalen
+                0x0020290c        0xc contiki-cc2538dk.a(packetbuf.o)
+                0x0020290c                packetbuf_set_datalen
+ .text.packetbuf_dataptr
+                0x00202918       0x14 contiki-cc2538dk.a(packetbuf.o)
+                0x00202918                packetbuf_dataptr
+ .text.packetbuf_hdrptr
+                0x0020292c       0x14 contiki-cc2538dk.a(packetbuf.o)
+                0x0020292c                packetbuf_hdrptr
+ .text.packetbuf_datalen
+                0x00202940        0xc contiki-cc2538dk.a(packetbuf.o)
+                0x00202940                packetbuf_datalen
+ .text.packetbuf_hdrlen
+                0x0020294c       0x1c contiki-cc2538dk.a(packetbuf.o)
+                0x0020294c                packetbuf_hdrlen
+ .text.packetbuf_totlen
+                0x00202968       0x14 contiki-cc2538dk.a(packetbuf.o)
+                0x00202968                packetbuf_totlen
+ .text.packetbuf_hdralloc
+                0x0020297c       0x28 contiki-cc2538dk.a(packetbuf.o)
+                0x0020297c                packetbuf_hdralloc
+ .text.packetbuf_attr_clear
+                0x002029a4       0x30 contiki-cc2538dk.a(packetbuf.o)
+                0x002029a4                packetbuf_attr_clear
+ .text.packetbuf_clear
+                0x002029d4       0x30 contiki-cc2538dk.a(packetbuf.o)
+                0x002029d4                packetbuf_clear
+ .text.packetbuf_copyfrom
+                0x00202a04       0x2c contiki-cc2538dk.a(packetbuf.o)
+                0x00202a04                packetbuf_copyfrom
+ .text.packetbuf_attr_copyto
+                0x00202a30       0x28 contiki-cc2538dk.a(packetbuf.o)
+                0x00202a30                packetbuf_attr_copyto
+ .text.packetbuf_attr_copyfrom
+                0x00202a58       0x28 contiki-cc2538dk.a(packetbuf.o)
+                0x00202a58                packetbuf_attr_copyfrom
+ .text.packetbuf_set_attr
+                0x00202a80       0x10 contiki-cc2538dk.a(packetbuf.o)
+                0x00202a80                packetbuf_set_attr
+ .text.packetbuf_attr
+                0x00202a90        0xc contiki-cc2538dk.a(packetbuf.o)
+                0x00202a90                packetbuf_attr
+ .text.packetbuf_set_addr
+                0x00202a9c       0x18 contiki-cc2538dk.a(packetbuf.o)
+                0x00202a9c                packetbuf_set_addr
+ .text.packetbuf_addr
+                0x00202ab4       0x10 contiki-cc2538dk.a(packetbuf.o)
+                0x00202ab4                packetbuf_addr
+ .text.packetbuf_holds_broadcast
+                0x00202ac4       0x10 contiki-cc2538dk.a(packetbuf.o)
+                0x00202ac4                packetbuf_holds_broadcast
+ .text.queuebuf_init
+                0x00202ad4       0x1c contiki-cc2538dk.a(queuebuf.o)
+                0x00202ad4                queuebuf_init
+ .text.queuebuf_new_from_packetbuf
+                0x00202af0       0x44 contiki-cc2538dk.a(queuebuf.o)
+                0x00202af0                queuebuf_new_from_packetbuf
+ .text.queuebuf_free
+                0x00202b34       0x2c contiki-cc2538dk.a(queuebuf.o)
+                0x00202b34                queuebuf_free
+ .text.queuebuf_to_packetbuf
+                0x00202b60       0x30 contiki-cc2538dk.a(queuebuf.o)
+                0x00202b60                queuebuf_to_packetbuf
+ .text.input_packet
+                0x00202b90        0xc contiki-cc2538dk.a(csma.o)
+ .text.on       0x00202b9c        0xc contiki-cc2538dk.a(csma.o)
+ .text.off      0x00202ba8        0xc contiki-cc2538dk.a(csma.o)
+ .text.channel_check_interval
+                0x00202bb4       0x10 contiki-cc2538dk.a(csma.o)
+ .text.transmit_packet_list
+                0x00202bc4       0x30 contiki-cc2538dk.a(csma.o)
+ .text.send_packet
+                0x00202bf4      0x158 contiki-cc2538dk.a(csma.o)
+ .text.init     0x00202d4c       0x24 contiki-cc2538dk.a(csma.o)
+ .text.free_packet
+                0x00202d70       0x90 contiki-cc2538dk.a(csma.o)
+ .text.packet_sent
+                0x00202e00       0xf8 contiki-cc2538dk.a(csma.o)
+ .text.on       0x00202ef8        0xc contiki-cc2538dk.a(nullrdc.o)
+ .text.send_one_packet
+                0x00202f04      0x118 contiki-cc2538dk.a(nullrdc.o)
+ .text.off      0x0020301c       0x18 contiki-cc2538dk.a(nullrdc.o)
+ .text.packet_input
+                0x00203034       0x54 contiki-cc2538dk.a(nullrdc.o)
+ .text.hdr_length
+                0x00203088       0x10 contiki-cc2538dk.a(contikimac-fram)
+ .text.parse    0x00203098       0x38 contiki-cc2538dk.a(contikimac-fram)
+ .text.create   0x002030d0       0x2c contiki-cc2538dk.a(contikimac-fram)
+ .text.create_and_secure
+                0x002030fc       0x64 contiki-cc2538dk.a(contikimac-fram)
+ .text.input    0x00203160        0xc contiki-cc2538dk.a(nullsec.o)
+ .text.send     0x0020316c       0x20 contiki-cc2538dk.a(nullsec.o)
+ .text.abc_open
+                0x0020318c       0x20 contiki-cc2538dk.a(abc.o)
+                0x0020318c                abc_open
+ .text.announcement_init
+                0x002031ac        0xc contiki-cc2538dk.a(announcement.o)
+                0x002031ac                announcement_init
+ .text.announcement_register_observer_callback
+                0x002031b8        0xc contiki-cc2538dk.a(announcement.o)
+                0x002031b8                announcement_register_observer_callback
+ .text.announcement_list
+                0x002031c4        0xc contiki-cc2538dk.a(announcement.o)
+                0x002031c4                announcement_list
+ .text.announcement_heard
+                0x002031d0       0x38 contiki-cc2538dk.a(announcement.o)
+                0x002031d0                announcement_heard
+ .text.set_timers
+                0x00203208       0x3c contiki-cc2538dk.a(broadcast-annou)
+ .text.send_timer
+                0x00203244       0x18 contiki-cc2538dk.a(broadcast-annou)
+ .text.send_adv
+                0x0020325c       0x54 contiki-cc2538dk.a(broadcast-annou)
+ .text.new_announcement
+                0x002032b0       0x18 contiki-cc2538dk.a(broadcast-annou)
+ .text.broadcast_announcement_init
+                0x002032c8       0x34 contiki-cc2538dk.a(broadcast-annou)
+                0x002032c8                broadcast_announcement_init
+ .text.chameleon_parse
+                0x002032fc       0x1c contiki-cc2538dk.a(chameleon.o)
+                0x002032fc                chameleon_parse
+ .text.chameleon_create
+                0x00203318       0x20 contiki-cc2538dk.a(chameleon.o)
+                0x00203318                chameleon_create
+ .text.chameleon_hdrsize
+                0x00203338        0xc contiki-cc2538dk.a(chameleon.o)
+                0x00203338                chameleon_hdrsize
+ .text.create_frame.isra.0
+                0x00203344      0x110 contiki-cc2538dk.a(framer-802154.o)
+ .text.framer_canonical_create_and_secure
+                0x00203454       0x30 contiki-cc2538dk.a(framer.o)
+                0x00203454                framer_canonical_create_and_secure
+ .text.mac_sequence_is_duplicate
+                0x00203484       0x34 contiki-cc2538dk.a(mac-sequence.o)
+                0x00203484                mac_sequence_is_duplicate
+ .text.mac_sequence_register_seqno
+                0x002034b8       0x4c contiki-cc2538dk.a(mac-sequence.o)
+                0x002034b8                mac_sequence_register_seqno
+ .text.get_bits_in_byte
+                0x00203504       0x24 contiki-cc2538dk.a(chameleon-bitop)
+                0x00203504                get_bits_in_byte
+ .text.frame802154_parse
+                0x00203528      0x120 contiki-cc2538dk.a(frame802154.o)
+                0x00203528                frame802154_parse
+ .text          0x00203648       0x30 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                0x00203648                __aeabi_uldivmod
+ .text          0x00203678       0x60 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+                0x00203678                __gnu_ldivmod_helper
+                0x002036a8                __gnu_uldivmod_helper
+ .text          0x002036d8        0x4 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+                0x002036d8                __aeabi_ldiv0
+                0x002036d8                __aeabi_idiv0
+ .text          0x002036dc      0x2ac /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+                0x002036dc                __divdi3
+ .text          0x00203988      0x270 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                0x00203988                __udivdi3
+ .text.memcmp   0x00203bf8       0x64 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+                0x00203bf8                memcmp
+ .text          0x00203c5c       0xec /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+                0x00203c5c                memcpy
+ .text.memset   0x00203d48       0x9c /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+                0x00203d48                memset
+ .text.default_handler
+                0x00203de4        0x2 obj_cc2538dk/startup-gcc.o
+                0x00203de4                default_handler
+                0x00203de4                usb_isr
+ .text.nmi_handler
+                0x00203de6        0x6 obj_cc2538dk/startup-gcc.o
+                0x00203de6                nmi_handler
+ .text.rt_callback
+                0x00203dec        0x6 cc2538-demo.co
+                0x00203dec                rt_callback
+ .text.fade     0x00203df2       0x54 contiki-cc2538dk.a(contiki-main.o)
+ .text.config   0x00203e46       0x40 contiki-cc2538dk.a(button-sensor.o)
+ .text.status   0x00203e86        0x4 contiki-cc2538dk.a(als-sensor.o)
+ .text.clock_isr
+                0x00203e8a        0x4 contiki-cc2538dk.a(clock.o)
+                0x00203e8a                clock_isr
+ .text.rtimer_arch_init
+                0x00203e8e        0x2 contiki-cc2538dk.a(rtimer-arch.o)
+                0x00203e8e                rtimer_arch_init
+ .text.uart0_isr
+                0x00203e90        0x6 contiki-cc2538dk.a(uart.o)
+                0x00203e90                uart0_isr
+ .text.uart1_isr
+                0x00203e96        0x6 contiki-cc2538dk.a(uart.o)
+                0x00203e96                uart1_isr
+ .text.cpu_cpsie
+                0x00203e9c        0x8 contiki-cc2538dk.a(cpu.o)
+                0x00203e9c                cpu_cpsie
+ .text.cpu_cpsid
+                0x00203ea4        0x8 contiki-cc2538dk.a(cpu.o)
+                0x00203ea4                cpu_cpsid
+ .text.gpio_port_a_isr
+                0x00203eac        0x6 contiki-cc2538dk.a(gpio.o)
+                0x00203eac                gpio_port_a_isr
+ .text.gpio_port_b_isr
+                0x00203eb2        0x6 contiki-cc2538dk.a(gpio.o)
+                0x00203eb2                gpio_port_b_isr
+ .text.gpio_port_c_isr
+                0x00203eb8        0x6 contiki-cc2538dk.a(gpio.o)
+                0x00203eb8                gpio_port_c_isr
+ .text.gpio_port_d_isr
+                0x00203ebe        0x6 contiki-cc2538dk.a(gpio.o)
+                0x00203ebe                gpio_port_d_isr
+ .text.send     0x00203ec4       0x12 contiki-cc2538dk.a(cc2538-rf.o)
+ .text.putchar  0x00203ed6       0x10 contiki-cc2538dk.a(dbg.o)
+                0x00203ed6                putchar
+ .text.dbg_send_bytes
+                0x00203ee6       0x20 contiki-cc2538dk.a(dbg.o)
+                0x00203ee6                dbg_send_bytes
+ .text.puts     0x00203f06       0x20 contiki-cc2538dk.a(dbg.o)
+                0x00203f06                puts
+ .text.configure
+                0x00203f26        0x4 contiki-cc2538dk.a(cc2538-temp-sen)
+ .text.status   0x00203f2a        0x4 contiki-cc2538dk.a(cc2538-temp-sen)
+ .text.value    0x00203f2e       0x34 contiki-cc2538dk.a(cc2538-temp-sen)
+ .text.configure
+                0x00203f62        0x4 contiki-cc2538dk.a(vdd3-sensor.o)
+ .text.status   0x00203f66        0x4 contiki-cc2538dk.a(vdd3-sensor.o)
+ .text.value    0x00203f6a       0x2a contiki-cc2538dk.a(vdd3-sensor.o)
+ .text.write_str
+                0x00203f94       0x10 contiki-cc2538dk.a(dbg-printf.o)
+ .text.autostart_start
+                0x00203fa4       0x14 contiki-cc2538dk.a(autostart.o)
+                0x00203fa4                autostart_start
+ .text.energest_init
+                0x00203fb8        0x2 contiki-cc2538dk.a(energest.o)
+                0x00203fb8                energest_init
+ .text.etimer_set
+                0x00203fba       0x12 contiki-cc2538dk.a(etimer.o)
+                0x00203fba                etimer_set
+ .text.call_process
+                0x00203fcc        0xc contiki-cc2538dk.a(process.o)
+ .text.rtimer_init
+                0x00203fd8        0x4 contiki-cc2538dk.a(rtimer.o)
+                0x00203fd8                rtimer_init
+ .text.timer_set
+                0x00203fdc        0xe contiki-cc2538dk.a(timer.o)
+                0x00203fdc                timer_set
+ .text.timer_expired
+                0x00203fea       0x1c contiki-cc2538dk.a(timer.o)
+                0x00203fea                timer_expired
+ .text.list_init
+                0x00204006        0x6 contiki-cc2538dk.a(list.o)
+                0x00204006                list_init
+ .text.list_head
+                0x0020400c        0x4 contiki-cc2538dk.a(list.o)
+                0x0020400c                list_head
+ .text.list_tail
+                0x00204010       0x10 contiki-cc2538dk.a(list.o)
+                0x00204010                list_tail
+ .text.list_remove
+                0x00204020       0x28 contiki-cc2538dk.a(list.o)
+                0x00204020                list_remove
+ .text.list_add
+                0x00204048       0x1e contiki-cc2538dk.a(list.o)
+                0x00204048                list_add
+ .text.list_push
+                0x00204066       0x12 contiki-cc2538dk.a(list.o)
+                0x00204066                list_push
+ .text.list_length
+                0x00204078        0xe contiki-cc2538dk.a(list.o)
+                0x00204078                list_length
+ .text.list_item_next
+                0x00204086        0x6 contiki-cc2538dk.a(list.o)
+                0x00204086                list_item_next
+ .text.ringbuf_init
+                0x0020408c        0xe contiki-cc2538dk.a(ringbuf.o)
+                0x0020408c                ringbuf_init
+ .text.ringbuf_put
+                0x0020409a       0x28 contiki-cc2538dk.a(ringbuf.o)
+                0x0020409a                ringbuf_put
+ .text.ringbuf_get
+                0x002040c2       0x20 contiki-cc2538dk.a(ringbuf.o)
+                0x002040c2                ringbuf_get
+ .text.sent_by_abc
+                0x002040e2        0xa contiki-cc2538dk.a(broadcast.o)
+ .text.recv_from_abc
+                0x002040ec       0x22 contiki-cc2538dk.a(broadcast.o)
+ .text.broadcast_close
+                0x0020410e        0x4 contiki-cc2538dk.a(broadcast.o)
+                0x0020410e                broadcast_close
+ .text.channel_set_attributes
+                0x00204112       0x18 contiki-cc2538dk.a(channel.o)
+                0x00204112                channel_set_attributes
+ .text.init     0x0020412a       0x28 contiki-cc2538dk.a(rime.o)
+ .text.linkaddr_copy
+                0x00204152        0x6 contiki-cc2538dk.a(linkaddr.o)
+                0x00204152                linkaddr_copy
+ .text.linkaddr_cmp
+                0x00204158       0x10 contiki-cc2538dk.a(linkaddr.o)
+                0x00204158                linkaddr_cmp
+ .text.queuebuf_update_attr_from_packetbuf
+                0x00204168        0xc contiki-cc2538dk.a(queuebuf.o)
+                0x00204168                queuebuf_update_attr_from_packetbuf
+ .text.queuebuf_attr
+                0x00204174        0xc contiki-cc2538dk.a(queuebuf.o)
+                0x00204174                queuebuf_attr
+ .text.mac_call_sent_callback
+                0x00204180       0x16 contiki-cc2538dk.a(mac.o)
+                0x00204180                mac_call_sent_callback
+ .text.channel_check_interval
+                0x00204196        0x4 contiki-cc2538dk.a(nullrdc.o)
+ .text.init     0x0020419a        0x4 contiki-cc2538dk.a(nullrdc.o)
+ .text.send_list
+                0x0020419e       0x20 contiki-cc2538dk.a(nullrdc.o)
+ .text.send_packet
+                0x002041be        0x4 contiki-cc2538dk.a(nullrdc.o)
+ .text.bootstrap
+                0x002041c2        0x2 contiki-cc2538dk.a(nullsec.o)
+ .text.on_frame_created
+                0x002041c4        0x4 contiki-cc2538dk.a(nullsec.o)
+ .text.get_overhead
+                0x002041c8        0x4 contiki-cc2538dk.a(nullsec.o)
+ .text.memb_init
+                0x002041cc       0x20 contiki-cc2538dk.a(memb.o)
+                0x002041cc                memb_init
+ .text.memb_alloc
+                0x002041ec       0x28 contiki-cc2538dk.a(memb.o)
+                0x002041ec                memb_alloc
+ .text.memb_free
+                0x00204214       0x2c contiki-cc2538dk.a(memb.o)
+                0x00204214                memb_free
+ .text.memb_inmemb
+                0x00204240       0x1c contiki-cc2538dk.a(memb.o)
+                0x00204240                memb_inmemb
+ .text.abc_close
+                0x0020425c        0x4 contiki-cc2538dk.a(abc.o)
+                0x0020425c                abc_close
+ .text.abc_send
+                0x00204260        0x4 contiki-cc2538dk.a(abc.o)
+                0x00204260                abc_send
+ .text.abc_input
+                0x00204264        0xa contiki-cc2538dk.a(abc.o)
+                0x00204264                abc_input
+ .text.abc_sent
+                0x0020426e        0xa contiki-cc2538dk.a(abc.o)
+                0x0020426e                abc_sent
+ .text.adv_packet_sent
+                0x00204278        0x2 contiki-cc2538dk.a(broadcast-annou)
+ .text.adv_packet_received
+                0x0020427a       0x44 contiki-cc2538dk.a(broadcast-annou)
+ .text.chameleon_init
+                0x002042be        0x4 contiki-cc2538dk.a(chameleon.o)
+                0x002042be                chameleon_init
+ .text.parse    0x002042c2       0x98 contiki-cc2538dk.a(framer-802154.o)
+ .text.create   0x0020435a        0x6 contiki-cc2538dk.a(framer-802154.o)
+ .text.hdr_length
+                0x00204360        0x6 contiki-cc2538dk.a(framer-802154.o)
+ .text.header_size
+                0x00204366       0x16 contiki-cc2538dk.a(chameleon-bitop)
+ .text.get_bits
+                0x0020437c       0x74 contiki-cc2538dk.a(chameleon-bitop)
+                0x0020437c                get_bits
+ .text.unpack_header
+                0x002043f0       0x9e contiki-cc2538dk.a(chameleon-bitop)
+ .text.set_bits_in_byte
+                0x0020448e       0x1a contiki-cc2538dk.a(chameleon-bitop)
+                0x0020448e                set_bits_in_byte
+ .text.set_bits
+                0x002044a8       0x78 contiki-cc2538dk.a(chameleon-bitop)
+                0x002044a8                set_bits
+ .text.pack_header
+                0x00204520       0x80 contiki-cc2538dk.a(chameleon-bitop)
+ .text.field_len
+                0x002045a0       0x70 contiki-cc2538dk.a(frame802154.o)
+ .text.frame802154_hdrlen
+                0x00204610       0x2c contiki-cc2538dk.a(frame802154.o)
+                0x00204610                frame802154_hdrlen
+ .text.frame802154_create
+                0x0020463c       0xc4 contiki-cc2538dk.a(frame802154.o)
+                0x0020463c                frame802154_create
+ *(SORT(.rodata*))
+ .rodata.autostart_processes
+                0x00204700        0x8 cc2538-demo.co
+                0x00204700                autostart_processes
+ .rodata.bc_rx  0x00204708        0x8 cc2538-demo.co
+ .rodata.button_select_sensor
+                0x00204710       0x10 contiki-cc2538dk.a(button-sensor.o)
+                0x00204710                button_select_sensor
+ .rodata.button_up_sensor
+                0x00204720       0x10 contiki-cc2538dk.a(button-sensor.o)
+                0x00204720                button_up_sensor
+ .rodata.button_left_sensor
+                0x00204730       0x10 contiki-cc2538dk.a(button-sensor.o)
+                0x00204730                button_left_sensor
+ .rodata.button_right_sensor
+                0x00204740       0x10 contiki-cc2538dk.a(button-sensor.o)
+                0x00204740                button_right_sensor
+ .rodata.button_down_sensor
+                0x00204750       0x10 contiki-cc2538dk.a(button-sensor.o)
+                0x00204750                button_down_sensor
+ .rodata.als_sensor
+                0x00204760       0x10 contiki-cc2538dk.a(als-sensor.o)
+                0x00204760                als_sensor
+ .rodata.uart_regs
+                0x00204770       0x58 contiki-cc2538dk.a(uart.o)
+ .rodata.cc2538_rf_driver
+                0x002047c8       0x38 contiki-cc2538dk.a(cc2538-rf.o)
+                0x002047c8                cc2538_rf_driver
+ .rodata.output_power
+                0x00204800       0x70 contiki-cc2538dk.a(cc2538-rf.o)
+ .rodata.cc2538_temp_sensor
+                0x00204870       0x10 contiki-cc2538dk.a(cc2538-temp-sen)
+                0x00204870                cc2538_temp_sensor
+ .rodata.vdd3_sensor
+                0x00204880       0x10 contiki-cc2538dk.a(vdd3-sensor.o)
+                0x00204880                vdd3_sensor
+ .rodata.broadcast
+                0x00204890        0x8 contiki-cc2538dk.a(broadcast.o)
+ .rodata.rime_driver
+                0x00204898        0xc contiki-cc2538dk.a(rime.o)
+                0x00204898                rime_driver
+ .rodata.csma_driver
+                0x002048a4       0x1c contiki-cc2538dk.a(csma.o)
+                0x002048a4                csma_driver
+ .rodata.nullrdc_driver
+                0x002048c0       0x20 contiki-cc2538dk.a(nullrdc.o)
+                0x002048c0                nullrdc_driver
+ .rodata.contikimac_framer
+                0x002048e0       0x10 contiki-cc2538dk.a(contikimac-fram)
+                0x002048e0                contikimac_framer
+ .rodata.nullsec_driver
+                0x002048f0       0x18 contiki-cc2538dk.a(nullsec.o)
+                0x002048f0                nullsec_driver
+ .rodata.broadcast_callbacks
+                0x00204908        0x8 contiki-cc2538dk.a(broadcast-annou)
+ .rodata.framer_802154
+                0x00204910       0x10 contiki-cc2538dk.a(framer-802154.o)
+                0x00204910                framer_802154
+ .rodata.chameleon_bitopt
+                0x00204920        0xc contiki-cc2538dk.a(chameleon-bitop)
+                0x00204920                chameleon_bitopt
+ .rodata.linkaddr_null
+                0x0020492c        0x2 contiki-cc2538dk.a(linkaddr.o)
+                0x0020492c                linkaddr_null
+ .rodata.str1.1
+                0x0020492e       0xae cc2538-demo.co
+ .rodata.str1.1
+                0x002049dc       0x63 contiki-cc2538dk.a(contiki-main.o)
+ .rodata.str1.1
+                0x00204a3f        0x8 contiki-cc2538dk.a(sensors.o)
+ .rodata.str1.1
+                0x00204a47        0x7 contiki-cc2538dk.a(button-sensor.o)
+ .rodata.str1.1
+                0x00204a4e        0x4 contiki-cc2538dk.a(als-sensor.o)
+ .rodata.str1.1
+                0x00204a52       0x11 contiki-cc2538dk.a(cc2538-rf.o)
+ .rodata.str1.1
+                0x00204a63       0x14 contiki-cc2538dk.a(cc2538-temp-sen)
+ .rodata.str1.1
+                0x00204a77        0x5 contiki-cc2538dk.a(vdd3-sensor.o)
+ .rodata.buffer.4159
+                0x00204a7c       0x10 contiki-cc2538dk.a(strformat.o)
+ .rodata.str1.1
+                0x00204a8c       0x35 contiki-cc2538dk.a(strformat.o)
+                                 0x37 (size before relaxing)
+ .rodata.buffer.4150
+                0x00204ac1       0x10 contiki-cc2538dk.a(strformat.o)
+ .rodata.str1.1
+                0x00204ad1        0xf contiki-cc2538dk.a(ctimer.o)
+ .rodata.str1.1
+                0x00204ae0        0xc contiki-cc2538dk.a(etimer.o)
+ .rodata.str1.1
+                0x00204aec        0xe contiki-cc2538dk.a(serial-line.o)
+ .rodata.attributes
+                0x00204afa        0x4 contiki-cc2538dk.a(broadcast.o)
+ .rodata.str1.1
+                0x00204afe        0x5 contiki-cc2538dk.a(rime.o)
+ .rodata.str1.1
+                0x00204b03        0x5 contiki-cc2538dk.a(csma.o)
+ .rodata.str1.1
+                0x00204b08        0x8 contiki-cc2538dk.a(nullrdc.o)
+ .rodata.str1.1
+                0x00204b10        0x8 contiki-cc2538dk.a(nullsec.o)
+ .rodata.attributes
+                0x00204b18        0x2 contiki-cc2538dk.a(abc.o)
+ .rodata.bitmask
+                0x00204b1a        0x9 contiki-cc2538dk.a(chameleon-bitop)
+                0x00204b23                _etext = .
+
+.glue_7         0x00204b24        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00204b24        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00204b24        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00204b24        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00204b24        0x0
+ .iplt          0x00000000        0x0 obj_cc2538dk/startup-gcc.o
+
+.socdata        0x20000000       0x40
+ *(SORT(.udma_channel_control_table))
+ .udma_channel_control_table
+                0x20000000       0x40 contiki-cc2538dk.a(udma.o)
+
+.data           0x20000040       0xc9 load address 0x00204b24
+                0x20000040                _data = .
+ *(SORT(.data*))
+ .data.cc2538_demo_process
+                0x20000040       0x10 cc2538-demo.co
+                0x20000040                cc2538_demo_process
+ .data.sensors_process
+                0x20000050       0x10 contiki-cc2538dk.a(sensors.o)
+                0x20000050                sensors_process
+ .data.sensors  0x20000060       0x24 contiki-cc2538dk.a(smartrf-sensors)
+                0x20000060                sensors
+ .data.cc2538_rf_process
+                0x20000084       0x10 contiki-cc2538dk.a(cc2538-rf.o)
+                0x20000084                cc2538_rf_process
+ .data.ctxt     0x20000094        0x8 contiki-cc2538dk.a(dbg-printf.o)
+ .data.ctimer_process
+                0x2000009c       0x10 contiki-cc2538dk.a(ctimer.o)
+                0x2000009c                ctimer_process
+ .data.etimer_process
+                0x200000ac       0x10 contiki-cc2538dk.a(etimer.o)
+                0x200000ac                etimer_process
+ .data.serial_line_process
+                0x200000bc       0x10 contiki-cc2538dk.a(serial-line.o)
+                0x200000bc                serial_line_process
+ .data.bufmem   0x200000cc        0xc contiki-cc2538dk.a(queuebuf.o)
+ .data.buframmem
+                0x200000d8        0xc contiki-cc2538dk.a(queuebuf.o)
+ .data.metadata_memb
+                0x200000e4        0xc contiki-cc2538dk.a(csma.o)
+ .data.neighbor_memb
+                0x200000f0        0xc contiki-cc2538dk.a(csma.o)
+ .data.packet_memb
+                0x200000fc        0xc contiki-cc2538dk.a(csma.o)
+ .data.rf_channel
+                0x20000108        0x1 contiki-cc2538dk.a(cc2538-rf.o)
+                0x20000109                _edata = .
+                0x00204b24                _ldata = LOADADDR (.data)
+
+.igot.plt       0x2000010c        0x0 load address 0x00204bed
+ .igot.plt      0x00000000        0x0 obj_cc2538dk/startup-gcc.o
+
+.ARM.exidx      0x00204bf0        0x8
+ *(SORT(.ARM.exidx*))
+ .ARM.exidx     0x00204bf0        0x8 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00204bf8        0x0 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+
+.bss            0x20000110      0xce7
+                0x20000110                _bss = .
+ *(SORT(.bss*))
+ .bss.rt_ticks_startup
+                0x20000110        0x8 contiki-cc2538dk.a(clock.o)
+ .bss.rt_ticks_epoch
+                0x20000118        0x8 contiki-cc2538dk.a(clock.o)
+ .bss.rt        0x20000120        0xc cc2538-demo.co
+ .bss.et        0x2000012c       0x10 cc2538-demo.co
+ .bss.bc        0x2000013c       0x18 cc2538-demo.co
+ .bss.i.4710    0x20000154        0x4 contiki-cc2538dk.a(sensors.o)
+ .bss.events.4711
+                0x20000158        0x4 contiki-cc2538dk.a(sensors.o)
+ .bss.debouncetimer
+                0x2000015c        0x8 contiki-cc2538dk.a(button-sensor.o)
+ .bss.next_trigger
+                0x20000164        0x4 contiki-cc2538dk.a(rtimer-arch.o)
+ .bss.input_handler
+                0x20000168        0x8 contiki-cc2538dk.a(uart.o)
+ .bss.interrupt_disable
+                0x20000170        0x4 contiki-cc2538dk.a(nvic.o)
+ .bss.interrupt_pend
+                0x20000174        0x4 contiki-cc2538dk.a(nvic.o)
+ .bss.interrupt_unpend
+                0x20000178        0x4 contiki-cc2538dk.a(nvic.o)
+ .bss.interrupt_enable
+                0x2000017c        0x4 contiki-cc2538dk.a(nvic.o)
+ .bss.gpio_callbacks
+                0x20000180       0x80 contiki-cc2538dk.a(gpio.o)
+ .bss.ioc_sel   0x20000200        0x4 contiki-cc2538dk.a(ioc.o)
+ .bss.ioc_over  0x20000204        0x4 contiki-cc2538dk.a(ioc.o)
+ .bss.notification_process
+                0x20000208        0x4 contiki-cc2538dk.a(crypto.o)
+ .bss.periph_permit_pm1_funcs
+                0x2000020c        0xc contiki-cc2538dk.a(lpm.o)
+ .bss.ctimer_list_list
+                0x20000218        0x4 contiki-cc2538dk.a(ctimer.o)
+ .bss.timerlist
+                0x2000021c        0x4 contiki-cc2538dk.a(etimer.o)
+ .bss.next_expiration
+                0x20000220        0x4 contiki-cc2538dk.a(etimer.o)
+ .bss.data.5352
+                0x20000224        0x4 contiki-cc2538dk.a(process.o)
+ .bss.process_current
+                0x20000228        0x4 contiki-cc2538dk.a(process.o)
+                0x20000228                process_current
+ .bss.p.5354    0x2000022c        0x4 contiki-cc2538dk.a(process.o)
+ .bss.process_list
+                0x20000230        0x4 contiki-cc2538dk.a(process.o)
+                0x20000230                process_list
+ .bss.events    0x20000234      0x180 contiki-cc2538dk.a(process.o)
+ .bss.receiver.5353
+                0x200003b4        0x4 contiki-cc2538dk.a(process.o)
+ .bss.next_rtimer
+                0x200003b8        0x4 contiki-cc2538dk.a(rtimer.o)
+ .bss.rxbuf     0x200003bc        0x8 contiki-cc2538dk.a(serial-line.o)
+ .bss.ptr.4695  0x200003c4        0x4 contiki-cc2538dk.a(serial-line.o)
+ .bss.channel_list_list
+                0x200003c8        0x4 contiki-cc2538dk.a(channel.o)
+ .bss.sniffers_list
+                0x200003cc        0x4 contiki-cc2538dk.a(rime.o)
+ .bss.packetbufptr
+                0x200003d0        0x4 contiki-cc2538dk.a(packetbuf.o)
+ .bss.packetbuf_aligned
+                0x200003d4       0xb0 contiki-cc2538dk.a(packetbuf.o)
+ .bss.bufmem_memb_mem
+                0x20000484       0x20 contiki-cc2538dk.a(queuebuf.o)
+ .bss.metadata_memb_memb_mem
+                0x200004a4       0x60 contiki-cc2538dk.a(csma.o)
+ .bss.neighbor_list_list
+                0x20000504        0x4 contiki-cc2538dk.a(csma.o)
+ .bss.packet_memb_memb_mem
+                0x20000508       0x60 contiki-cc2538dk.a(csma.o)
+ .bss.neighbor_memb_memb_mem
+                0x20000568       0x68 contiki-cc2538dk.a(csma.o)
+ .bss.announcements_list
+                0x200005d0        0x4 contiki-cc2538dk.a(announcement.o)
+ .bss.observer_callback
+                0x200005d4        0x4 contiki-cc2538dk.a(announcement.o)
+ .bss.c         0x200005d8       0x6c contiki-cc2538dk.a(broadcast-annou)
+ .bss.counter   0x20000644        0x2 cc2538-demo.co
+ .bss.buflen    0x20000646        0x2 contiki-cc2538dk.a(packetbuf.o)
+ .bss.bufptr    0x20000648        0x2 contiki-cc2538dk.a(packetbuf.o)
+ .bss.buframmem_memb_mem
+                0x2000064a      0x5f0 contiki-cc2538dk.a(queuebuf.o)
+ .bss.seqno.6237
+                0x20000c3a        0x2 contiki-cc2538dk.a(csma.o)
+ .bss.received_seqnos
+                0x20000c3c       0x40 contiki-cc2538dk.a(mac-sequence.o)
+ .bss.leds      0x20000c7c        0x1 contiki-cc2538dk.a(leds.o)
+ .bss.num_sensors
+                0x20000c7d        0x1 contiki-cc2538dk.a(sensors.o)
+ .bss.rf_flags  0x20000c7e        0x1 contiki-cc2538dk.a(cc2538-rf.o)
+ .bss.max_pm    0x20000c7f        0x1 contiki-cc2538dk.a(lpm.o)
+ .bss.initialized
+                0x20000c80        0x1 contiki-cc2538dk.a(ctimer.o)
+ .bss.snum.5369
+                0x20000c81        0x1 contiki-cc2538dk.a(process.o)
+ .bss.fevent    0x20000c82        0x1 contiki-cc2538dk.a(process.o)
+ .bss.ev.5351   0x20000c83        0x1 contiki-cc2538dk.a(process.o)
+ .bss.nevents   0x20000c84        0x1 contiki-cc2538dk.a(process.o)
+ .bss.poll_requested
+                0x20000c85        0x1 contiki-cc2538dk.a(process.o)
+ .bss.lastevent
+                0x20000c86        0x1 contiki-cc2538dk.a(process.o)
+ .bss.rxbuf_data
+                0x20000c87       0x80 contiki-cc2538dk.a(serial-line.o)
+ .bss.overflow.4688
+                0x20000d07        0x1 contiki-cc2538dk.a(serial-line.o)
+ .bss.buf.4694  0x20000d08       0x80 contiki-cc2538dk.a(serial-line.o)
+ .bss.hdrptr    0x20000d88        0x1 contiki-cc2538dk.a(packetbuf.o)
+ .bss.buframmem_memb_count
+                0x20000d89        0x8 contiki-cc2538dk.a(queuebuf.o)
+ .bss.bufmem_memb_count
+                0x20000d91        0x8 contiki-cc2538dk.a(queuebuf.o)
+ .bss.initialized.6236
+                0x20000d99        0x1 contiki-cc2538dk.a(csma.o)
+ .bss.packet_memb_memb_count
+                0x20000d9a        0x8 contiki-cc2538dk.a(csma.o)
+ .bss.metadata_memb_memb_count
+                0x20000da2        0x8 contiki-cc2538dk.a(csma.o)
+ .bss.neighbor_memb_memb_count
+                0x20000daa        0x2 contiki-cc2538dk.a(csma.o)
+ .bss.mac_dsn   0x20000dac        0x1 contiki-cc2538dk.a(framer-802154.o)
+ .bss.initialized
+                0x20000dad        0x1 contiki-cc2538dk.a(framer-802154.o)
+ *(SORT(COMMON))
+ COMMON         0x20000dae        0x2 contiki-cc2538dk.a(linkaddr.o)
+                0x20000dae                linkaddr_node_addr
+ COMMON         0x20000db0       0x3c contiki-cc2538dk.a(packetbuf.o)
+                0x20000db0                packetbuf_addrs
+                0x20000db8                packetbuf_attrs
+ COMMON         0x20000dec        0x1 contiki-cc2538dk.a(sensors.o)
+                0x20000dec                sensors_event
+ COMMON         0x20000ded        0x9 contiki-cc2538dk.a(smartrf-sensors)
+                0x20000ded                sensors_flags
+ COMMON         0x20000df6        0x1 contiki-cc2538dk.a(serial-line.o)
+                0x20000df6                serial_line_event_message
+                0x20000df7                _ebss = .
+
+.stack          0x20000df8      0x800
+ *(SORT(.stack))
+ .stack         0x20000df8      0x800 obj_cc2538dk/startup-gcc.o
+
+.flashcca       0x0027ffd4       0x2c
+ *(SORT(.flashcca))
+ .flashcca      0x0027ffd4       0x2c obj_cc2538dk/startup-gcc.o
+                0x0027ffd4                __cca
+OUTPUT(cc2538-demo.elf elf32-littlearm)
+
+.rel.dyn        0x00280000        0x0
+ .rel.iplt      0x00000000        0x0 obj_cc2538dk/startup-gcc.o
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 obj_cc2538dk/startup-gcc.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 cc2538-demo.co
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(leds.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(leds-arch.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(contiki-main.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(sensors.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(smartrf-sensors)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(button-sensor.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(als-sensor.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(clock.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(rtimer-arch.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(uart.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(watchdog.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(nvic.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(cpu.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(sys-ctrl.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(gpio.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(ioc.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(adc.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(crypto.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(cc2538-rf.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(udma.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(lpm.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(dbg.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(ieee-addr.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(cc2538-temp-sen)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(vdd3-sensor.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(dbg-printf.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(strformat.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(autostart.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(ctimer.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(energest.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(etimer.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(process.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(rtimer.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(timer.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(serial-line.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(list.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(random.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(ringbuf.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(broadcast.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(channel.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(rime.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(linkaddr.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(netstack.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(packetbuf.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(queuebuf.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(csma.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(mac.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(nullrdc.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(contikimac-fram)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(nullsec.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(memb.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(abc.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(announcement.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(broadcast-annou)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(chameleon.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(framer-802154.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(framer.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(mac-sequence.o)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(chameleon-bitop)
+ .comment       0x00000000       0x71 contiki-cc2538dk.a(frame802154.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 obj_cc2538dk/startup-gcc.o
+ .ARM.attributes
+                0x00000033       0x33 cc2538-demo.co
+ .ARM.attributes
+                0x00000066       0x33 contiki-cc2538dk.a(leds.o)
+ .ARM.attributes
+                0x00000099       0x33 contiki-cc2538dk.a(leds-arch.o)
+ .ARM.attributes
+                0x000000cc       0x33 contiki-cc2538dk.a(contiki-main.o)
+ .ARM.attributes
+                0x000000ff       0x33 contiki-cc2538dk.a(sensors.o)
+ .ARM.attributes
+                0x00000132       0x33 contiki-cc2538dk.a(smartrf-sensors)
+ .ARM.attributes
+                0x00000165       0x33 contiki-cc2538dk.a(button-sensor.o)
+ .ARM.attributes
+                0x00000198       0x33 contiki-cc2538dk.a(als-sensor.o)
+ .ARM.attributes
+                0x000001cb       0x33 contiki-cc2538dk.a(clock.o)
+ .ARM.attributes
+                0x000001fe       0x33 contiki-cc2538dk.a(rtimer-arch.o)
+ .ARM.attributes
+                0x00000231       0x33 contiki-cc2538dk.a(uart.o)
+ .ARM.attributes
+                0x00000264       0x33 contiki-cc2538dk.a(watchdog.o)
+ .ARM.attributes
+                0x00000297       0x33 contiki-cc2538dk.a(nvic.o)
+ .ARM.attributes
+                0x000002ca       0x33 contiki-cc2538dk.a(cpu.o)
+ .ARM.attributes
+                0x000002fd       0x33 contiki-cc2538dk.a(sys-ctrl.o)
+ .ARM.attributes
+                0x00000330       0x33 contiki-cc2538dk.a(gpio.o)
+ .ARM.attributes
+                0x00000363       0x33 contiki-cc2538dk.a(ioc.o)
+ .ARM.attributes
+                0x00000396       0x33 contiki-cc2538dk.a(adc.o)
+ .ARM.attributes
+                0x000003c9       0x33 contiki-cc2538dk.a(crypto.o)
+ .ARM.attributes
+                0x000003fc       0x33 contiki-cc2538dk.a(cc2538-rf.o)
+ .ARM.attributes
+                0x0000042f       0x33 contiki-cc2538dk.a(udma.o)
+ .ARM.attributes
+                0x00000462       0x33 contiki-cc2538dk.a(lpm.o)
+ .ARM.attributes
+                0x00000495       0x33 contiki-cc2538dk.a(dbg.o)
+ .ARM.attributes
+                0x000004c8       0x33 contiki-cc2538dk.a(ieee-addr.o)
+ .ARM.attributes
+                0x000004fb       0x33 contiki-cc2538dk.a(cc2538-temp-sen)
+ .ARM.attributes
+                0x0000052e       0x33 contiki-cc2538dk.a(vdd3-sensor.o)
+ .ARM.attributes
+                0x00000561       0x33 contiki-cc2538dk.a(dbg-printf.o)
+ .ARM.attributes
+                0x00000594       0x33 contiki-cc2538dk.a(strformat.o)
+ .ARM.attributes
+                0x000005c7       0x33 contiki-cc2538dk.a(autostart.o)
+ .ARM.attributes
+                0x000005fa       0x33 contiki-cc2538dk.a(ctimer.o)
+ .ARM.attributes
+                0x0000062d       0x33 contiki-cc2538dk.a(energest.o)
+ .ARM.attributes
+                0x00000660       0x33 contiki-cc2538dk.a(etimer.o)
+ .ARM.attributes
+                0x00000693       0x33 contiki-cc2538dk.a(process.o)
+ .ARM.attributes
+                0x000006c6       0x33 contiki-cc2538dk.a(rtimer.o)
+ .ARM.attributes
+                0x000006f9       0x33 contiki-cc2538dk.a(timer.o)
+ .ARM.attributes
+                0x0000072c       0x33 contiki-cc2538dk.a(serial-line.o)
+ .ARM.attributes
+                0x0000075f       0x33 contiki-cc2538dk.a(list.o)
+ .ARM.attributes
+                0x00000792       0x33 contiki-cc2538dk.a(random.o)
+ .ARM.attributes
+                0x000007c5       0x33 contiki-cc2538dk.a(ringbuf.o)
+ .ARM.attributes
+                0x000007f8       0x33 contiki-cc2538dk.a(broadcast.o)
+ .ARM.attributes
+                0x0000082b       0x33 contiki-cc2538dk.a(channel.o)
+ .ARM.attributes
+                0x0000085e       0x33 contiki-cc2538dk.a(rime.o)
+ .ARM.attributes
+                0x00000891       0x33 contiki-cc2538dk.a(linkaddr.o)
+ .ARM.attributes
+                0x000008c4       0x33 contiki-cc2538dk.a(netstack.o)
+ .ARM.attributes
+                0x000008f7       0x33 contiki-cc2538dk.a(packetbuf.o)
+ .ARM.attributes
+                0x0000092a       0x33 contiki-cc2538dk.a(queuebuf.o)
+ .ARM.attributes
+                0x0000095d       0x33 contiki-cc2538dk.a(csma.o)
+ .ARM.attributes
+                0x00000990       0x33 contiki-cc2538dk.a(mac.o)
+ .ARM.attributes
+                0x000009c3       0x33 contiki-cc2538dk.a(nullrdc.o)
+ .ARM.attributes
+                0x000009f6       0x33 contiki-cc2538dk.a(contikimac-fram)
+ .ARM.attributes
+                0x00000a29       0x33 contiki-cc2538dk.a(nullsec.o)
+ .ARM.attributes
+                0x00000a5c       0x33 contiki-cc2538dk.a(memb.o)
+ .ARM.attributes
+                0x00000a8f       0x33 contiki-cc2538dk.a(abc.o)
+ .ARM.attributes
+                0x00000ac2       0x33 contiki-cc2538dk.a(announcement.o)
+ .ARM.attributes
+                0x00000af5       0x33 contiki-cc2538dk.a(broadcast-annou)
+ .ARM.attributes
+                0x00000b28       0x33 contiki-cc2538dk.a(chameleon.o)
+ .ARM.attributes
+                0x00000b5b       0x33 contiki-cc2538dk.a(framer-802154.o)
+ .ARM.attributes
+                0x00000b8e       0x33 contiki-cc2538dk.a(framer.o)
+ .ARM.attributes
+                0x00000bc1       0x33 contiki-cc2538dk.a(mac-sequence.o)
+ .ARM.attributes
+                0x00000bf4       0x33 contiki-cc2538dk.a(chameleon-bitop)
+ .ARM.attributes
+                0x00000c27       0x33 contiki-cc2538dk.a(frame802154.o)
+ .ARM.attributes
+                0x00000c5a       0x1d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000c77       0x2d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000ca4       0x1d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000cc1       0x2d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000cee       0x2d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00000d1b       0x2d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000d48       0x1b /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000d63       0x2d /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+
+.debug_frame    0x00000000      0x150
+ .debug_frame   0x00000000       0x28 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000028       0x54 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .debug_frame   0x0000007c       0x34 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .debug_frame   0x000000b0       0x34 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .debug_frame   0x000000e4       0x38 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000011c       0x34 /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+
+Cross Reference Table
+
+Symbol                                            File
+__aeabi_idiv0                                     /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+__aeabi_ldiv0                                     /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+                                                  /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+__aeabi_uldivmod                                  /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                                                  contiki-cc2538dk.a(strformat.o)
+__cca                                             obj_cc2538dk/startup-gcc.o
+__divdi3                                          /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+                                                  /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+__gnu_ldivmod_helper                              /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+__gnu_uldivmod_helper                             /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+                                                  /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+__udivdi3                                         /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                                                  /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+_bss                                              obj_cc2538dk/startup-gcc.o
+_data                                             obj_cc2538dk/startup-gcc.o
+_ebss                                             obj_cc2538dk/startup-gcc.o
+_edata                                            obj_cc2538dk/startup-gcc.o
+_ldata                                            obj_cc2538dk/startup-gcc.o
+_text                                             obj_cc2538dk/startup-gcc.o
+abc_close                                         contiki-cc2538dk.a(abc.o)
+                                                  contiki-cc2538dk.a(broadcast.o)
+abc_input                                         contiki-cc2538dk.a(abc.o)
+                                                  contiki-cc2538dk.a(rime.o)
+abc_open                                          contiki-cc2538dk.a(abc.o)
+                                                  contiki-cc2538dk.a(broadcast.o)
+abc_send                                          contiki-cc2538dk.a(abc.o)
+                                                  contiki-cc2538dk.a(broadcast.o)
+abc_sent                                          contiki-cc2538dk.a(abc.o)
+                                                  contiki-cc2538dk.a(rime.o)
+adc_get                                           contiki-cc2538dk.a(adc.o)
+                                                  contiki-cc2538dk.a(vdd3-sensor.o)
+                                                  contiki-cc2538dk.a(cc2538-temp-sen)
+                                                  contiki-cc2538dk.a(als-sensor.o)
+adc_init                                          contiki-cc2538dk.a(adc.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+als_sensor                                        contiki-cc2538dk.a(als-sensor.o)
+                                                  contiki-cc2538dk.a(smartrf-sensors)
+                                                  cc2538-demo.co
+announcement_bump                                 contiki-cc2538dk.a(announcement.o)
+announcement_heard                                contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+announcement_init                                 contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(rime.o)
+announcement_list                                 contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+announcement_listen                               contiki-cc2538dk.a(announcement.o)
+announcement_register                             contiki-cc2538dk.a(announcement.o)
+announcement_register_listen_callback             contiki-cc2538dk.a(announcement.o)
+announcement_register_observer_callback           contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+announcement_remove                               contiki-cc2538dk.a(announcement.o)
+announcement_remove_value                         contiki-cc2538dk.a(announcement.o)
+announcement_set_value                            contiki-cc2538dk.a(announcement.o)
+autostart_exit                                    contiki-cc2538dk.a(autostart.o)
+autostart_processes                               cc2538-demo.co
+                                                  contiki-cc2538dk.a(contiki-main.o)
+autostart_start                                   contiki-cc2538dk.a(autostart.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+broadcast_announcement_beacon_interval            contiki-cc2538dk.a(broadcast-annou)
+broadcast_announcement_init                       contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(rime.o)
+broadcast_announcement_stop                       contiki-cc2538dk.a(broadcast-annou)
+broadcast_close                                   contiki-cc2538dk.a(broadcast.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  cc2538-demo.co
+broadcast_open                                    contiki-cc2538dk.a(broadcast.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  cc2538-demo.co
+broadcast_send                                    contiki-cc2538dk.a(broadcast.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  cc2538-demo.co
+button_down_sensor                                contiki-cc2538dk.a(button-sensor.o)
+                                                  contiki-cc2538dk.a(smartrf-sensors)
+                                                  cc2538-demo.co
+button_left_sensor                                contiki-cc2538dk.a(button-sensor.o)
+                                                  contiki-cc2538dk.a(smartrf-sensors)
+                                                  cc2538-demo.co
+button_right_sensor                               contiki-cc2538dk.a(button-sensor.o)
+                                                  contiki-cc2538dk.a(smartrf-sensors)
+                                                  cc2538-demo.co
+button_select_sensor                              contiki-cc2538dk.a(button-sensor.o)
+                                                  contiki-cc2538dk.a(smartrf-sensors)
+                                                  cc2538-demo.co
+button_sensor_init                                contiki-cc2538dk.a(button-sensor.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+button_up_sensor                                  contiki-cc2538dk.a(button-sensor.o)
+                                                  contiki-cc2538dk.a(smartrf-sensors)
+                                                  cc2538-demo.co
+cc2538_demo_process                               cc2538-demo.co
+cc2538_rf_driver                                  contiki-cc2538dk.a(cc2538-rf.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(netstack.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+cc2538_rf_err_isr                                 contiki-cc2538dk.a(cc2538-rf.o)
+                                                  obj_cc2538dk/startup-gcc.o
+cc2538_rf_process                                 contiki-cc2538dk.a(cc2538-rf.o)
+cc2538_rf_rx_tx_isr                               contiki-cc2538dk.a(cc2538-rf.o)
+                                                  obj_cc2538dk/startup-gcc.o
+cc2538_rf_set_promiscous_mode                     contiki-cc2538dk.a(cc2538-rf.o)
+cc2538_temp_sensor                                contiki-cc2538dk.a(cc2538-temp-sen)
+                                                  contiki-cc2538dk.a(smartrf-sensors)
+                                                  cc2538-demo.co
+chameleon_bitopt                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(chameleon.o)
+chameleon_create                                  contiki-cc2538dk.a(chameleon.o)
+                                                  contiki-cc2538dk.a(rime.o)
+chameleon_hdrsize                                 contiki-cc2538dk.a(chameleon.o)
+                                                  contiki-cc2538dk.a(channel.o)
+chameleon_init                                    contiki-cc2538dk.a(chameleon.o)
+                                                  contiki-cc2538dk.a(rime.o)
+chameleon_parse                                   contiki-cc2538dk.a(chameleon.o)
+                                                  contiki-cc2538dk.a(rime.o)
+channel_close                                     contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(abc.o)
+channel_init                                      contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(chameleon.o)
+channel_lookup                                    contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+channel_open                                      contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(abc.o)
+channel_set_attributes                            contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(abc.o)
+                                                  contiki-cc2538dk.a(broadcast.o)
+clock_adjust                                      contiki-cc2538dk.a(clock.o)
+                                                  contiki-cc2538dk.a(lpm.o)
+clock_delay                                       contiki-cc2538dk.a(clock.o)
+                                                  contiki-cc2538dk.a(leds.o)
+clock_delay_usec                                  contiki-cc2538dk.a(clock.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+                                                  contiki-cc2538dk.a(als-sensor.o)
+clock_init                                        contiki-cc2538dk.a(clock.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+clock_isr                                         contiki-cc2538dk.a(clock.o)
+                                                  obj_cc2538dk/startup-gcc.o
+clock_seconds                                     contiki-cc2538dk.a(clock.o)
+clock_set_seconds                                 contiki-cc2538dk.a(clock.o)
+clock_time                                        contiki-cc2538dk.a(clock.o)
+                                                  contiki-cc2538dk.a(timer.o)
+                                                  contiki-cc2538dk.a(etimer.o)
+clock_wait                                        contiki-cc2538dk.a(clock.o)
+contikimac_framer                                 contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(framer.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+cpu_cpsid                                         contiki-cc2538dk.a(cpu.o)
+                                                  contiki-cc2538dk.a(watchdog.o)
+                                                  contiki-cc2538dk.a(rtimer-arch.o)
+                                                  cc2538-demo.co
+cpu_cpsie                                         contiki-cc2538dk.a(cpu.o)
+                                                  contiki-cc2538dk.a(rtimer-arch.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+crypto_disable                                    contiki-cc2538dk.a(crypto.o)
+crypto_enable                                     contiki-cc2538dk.a(crypto.o)
+crypto_init                                       contiki-cc2538dk.a(crypto.o)
+crypto_isr                                        contiki-cc2538dk.a(crypto.o)
+                                                  obj_cc2538dk/startup-gcc.o
+crypto_register_process_notification              contiki-cc2538dk.a(crypto.o)
+csma_driver                                       contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(nullsec.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(netstack.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+ctimer_expired                                    contiki-cc2538dk.a(ctimer.o)
+ctimer_init                                       contiki-cc2538dk.a(ctimer.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+ctimer_process                                    contiki-cc2538dk.a(ctimer.o)
+ctimer_reset                                      contiki-cc2538dk.a(ctimer.o)
+ctimer_restart                                    contiki-cc2538dk.a(ctimer.o)
+ctimer_set                                        contiki-cc2538dk.a(ctimer.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(csma.o)
+ctimer_stop                                       contiki-cc2538dk.a(ctimer.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(csma.o)
+dbg_send_bytes                                    contiki-cc2538dk.a(dbg.o)
+                                                  contiki-cc2538dk.a(dbg-printf.o)
+default_handler                                   obj_cc2538dk/startup-gcc.o
+energest_flush                                    contiki-cc2538dk.a(energest.o)
+energest_init                                     contiki-cc2538dk.a(energest.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+energest_type_set                                 contiki-cc2538dk.a(energest.o)
+energest_type_time                                contiki-cc2538dk.a(energest.o)
+etimer_adjust                                     contiki-cc2538dk.a(etimer.o)
+etimer_expiration_time                            contiki-cc2538dk.a(etimer.o)
+etimer_expired                                    contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+etimer_next_expiration_time                       contiki-cc2538dk.a(etimer.o)
+etimer_pending                                    contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(clock.o)
+etimer_process                                    contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+etimer_request_poll                               contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(clock.o)
+etimer_reset                                      contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+etimer_restart                                    contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+etimer_set                                        contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+                                                  cc2538-demo.co
+etimer_start_time                                 contiki-cc2538dk.a(etimer.o)
+etimer_stop                                       contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+format_str                                        contiki-cc2538dk.a(strformat.o)
+format_str_v                                      contiki-cc2538dk.a(strformat.o)
+                                                  contiki-cc2538dk.a(dbg-printf.o)
+frame802154_create                                contiki-cc2538dk.a(frame802154.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+frame802154_hdrlen                                contiki-cc2538dk.a(frame802154.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+frame802154_parse                                 contiki-cc2538dk.a(frame802154.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+framer_802154                                     contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+framer_canonical_create_and_secure                contiki-cc2538dk.a(framer.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+get_bits                                          contiki-cc2538dk.a(chameleon-bitop)
+get_bits_in_byte                                  contiki-cc2538dk.a(chameleon-bitop)
+gpio_init                                         contiki-cc2538dk.a(gpio.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+gpio_port_a_isr                                   contiki-cc2538dk.a(gpio.o)
+                                                  obj_cc2538dk/startup-gcc.o
+gpio_port_b_isr                                   contiki-cc2538dk.a(gpio.o)
+                                                  obj_cc2538dk/startup-gcc.o
+gpio_port_c_isr                                   contiki-cc2538dk.a(gpio.o)
+                                                  obj_cc2538dk/startup-gcc.o
+gpio_port_d_isr                                   contiki-cc2538dk.a(gpio.o)
+                                                  obj_cc2538dk/startup-gcc.o
+gpio_register_callback                            contiki-cc2538dk.a(gpio.o)
+                                                  contiki-cc2538dk.a(button-sensor.o)
+ieee_addr_cpy_to                                  contiki-cc2538dk.a(ieee-addr.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+ioc_init                                          contiki-cc2538dk.a(ioc.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+ioc_set_over                                      contiki-cc2538dk.a(ioc.o)
+                                                  contiki-cc2538dk.a(uart.o)
+                                                  contiki-cc2538dk.a(als-sensor.o)
+                                                  contiki-cc2538dk.a(button-sensor.o)
+ioc_set_sel                                       contiki-cc2538dk.a(ioc.o)
+                                                  contiki-cc2538dk.a(uart.o)
+leds_arch_get                                     contiki-cc2538dk.a(leds-arch.o)
+                                                  contiki-cc2538dk.a(leds.o)
+leds_arch_init                                    contiki-cc2538dk.a(leds-arch.o)
+                                                  contiki-cc2538dk.a(leds.o)
+leds_arch_set                                     contiki-cc2538dk.a(leds-arch.o)
+                                                  contiki-cc2538dk.a(leds.o)
+leds_blink                                        contiki-cc2538dk.a(leds.o)
+leds_get                                          contiki-cc2538dk.a(leds.o)
+leds_init                                         contiki-cc2538dk.a(leds.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+leds_off                                          contiki-cc2538dk.a(leds.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+                                                  cc2538-demo.co
+leds_on                                           contiki-cc2538dk.a(leds.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+                                                  cc2538-demo.co
+leds_set                                          contiki-cc2538dk.a(leds.o)
+leds_toggle                                       contiki-cc2538dk.a(leds.o)
+                                                  cc2538-demo.co
+linkaddr_cmp                                      contiki-cc2538dk.a(linkaddr.o)
+                                                  contiki-cc2538dk.a(mac-sequence.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(packetbuf.o)
+linkaddr_copy                                     contiki-cc2538dk.a(linkaddr.o)
+                                                  contiki-cc2538dk.a(frame802154.o)
+                                                  contiki-cc2538dk.a(mac-sequence.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(broadcast.o)
+linkaddr_node_addr                                contiki-cc2538dk.a(linkaddr.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(broadcast.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+linkaddr_null                                     contiki-cc2538dk.a(linkaddr.o)
+                                                  contiki-cc2538dk.a(frame802154.o)
+                                                  contiki-cc2538dk.a(packetbuf.o)
+linkaddr_set_node_addr                            contiki-cc2538dk.a(linkaddr.o)
+list_add                                          contiki-cc2538dk.a(list.o)
+                                                  contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(rime.o)
+                                                  contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+list_chop                                         contiki-cc2538dk.a(list.o)
+list_copy                                         contiki-cc2538dk.a(list.o)
+list_head                                         contiki-cc2538dk.a(list.o)
+                                                  contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(rime.o)
+                                                  contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+list_init                                         contiki-cc2538dk.a(list.o)
+                                                  contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+list_insert                                       contiki-cc2538dk.a(list.o)
+list_item_next                                    contiki-cc2538dk.a(list.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(rime.o)
+                                                  contiki-cc2538dk.a(channel.o)
+list_length                                       contiki-cc2538dk.a(list.o)
+                                                  contiki-cc2538dk.a(csma.o)
+list_pop                                          contiki-cc2538dk.a(list.o)
+list_push                                         contiki-cc2538dk.a(list.o)
+                                                  contiki-cc2538dk.a(csma.o)
+list_remove                                       contiki-cc2538dk.a(list.o)
+                                                  contiki-cc2538dk.a(announcement.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(rime.o)
+                                                  contiki-cc2538dk.a(channel.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+list_tail                                         contiki-cc2538dk.a(list.o)
+lpm_enter                                         contiki-cc2538dk.a(lpm.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+lpm_exit                                          contiki-cc2538dk.a(lpm.o)
+                                                  contiki-cc2538dk.a(gpio.o)
+                                                  contiki-cc2538dk.a(rtimer-arch.o)
+lpm_init                                          contiki-cc2538dk.a(lpm.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+lpm_register_peripheral                           contiki-cc2538dk.a(lpm.o)
+                                                  contiki-cc2538dk.a(crypto.o)
+                                                  contiki-cc2538dk.a(uart.o)
+lpm_set_max_pm                                    contiki-cc2538dk.a(lpm.o)
+mac_call_sent_callback                            contiki-cc2538dk.a(mac.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(csma.o)
+mac_sequence_is_duplicate                         contiki-cc2538dk.a(mac-sequence.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+mac_sequence_register_seqno                       contiki-cc2538dk.a(mac-sequence.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+main                                              contiki-cc2538dk.a(contiki-main.o)
+                                                  obj_cc2538dk/startup-gcc.o
+memb_alloc                                        contiki-cc2538dk.a(memb.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+memb_free                                         contiki-cc2538dk.a(memb.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+memb_init                                         contiki-cc2538dk.a(memb.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+memb_inmemb                                       contiki-cc2538dk.a(memb.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+memb_numfree                                      contiki-cc2538dk.a(memb.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+memcmp                                            /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+                                                  contiki-cc2538dk.a(linkaddr.o)
+memcpy                                            /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+                                                  contiki-cc2538dk.a(packetbuf.o)
+memset                                            /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+                                                  contiki-cc2538dk.a(frame802154.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(memb.o)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(gpio.o)
+netstack_init                                     contiki-cc2538dk.a(netstack.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+nmi_handler                                       obj_cc2538dk/startup-gcc.o
+notify                                            contiki-cc2538dk.a(gpio.o)
+nullrdc_driver                                    contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(netstack.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+nullsec_driver                                    contiki-cc2538dk.a(nullsec.o)
+                                                  contiki-cc2538dk.a(framer.o)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(rime.o)
+nvic_init                                         contiki-cc2538dk.a(nvic.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+nvic_interrupt_disable                            contiki-cc2538dk.a(nvic.o)
+                                                  contiki-cc2538dk.a(crypto.o)
+                                                  contiki-cc2538dk.a(rtimer-arch.o)
+nvic_interrupt_en_restore                         contiki-cc2538dk.a(nvic.o)
+nvic_interrupt_en_save                            contiki-cc2538dk.a(nvic.o)
+nvic_interrupt_enable                             contiki-cc2538dk.a(nvic.o)
+                                                  contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+                                                  contiki-cc2538dk.a(uart.o)
+                                                  contiki-cc2538dk.a(rtimer-arch.o)
+                                                  contiki-cc2538dk.a(button-sensor.o)
+nvic_interrupt_pend                               contiki-cc2538dk.a(nvic.o)
+nvic_interrupt_unpend                             contiki-cc2538dk.a(nvic.o)
+                                                  contiki-cc2538dk.a(crypto.o)
+                                                  contiki-cc2538dk.a(rtimer-arch.o)
+packetbuf_addr                                    contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(mac-sequence.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(broadcast.o)
+packetbuf_addrs                                   contiki-cc2538dk.a(packetbuf.o)
+packetbuf_attr                                    contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(mac-sequence.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(csma.o)
+packetbuf_attr_clear                              contiki-cc2538dk.a(packetbuf.o)
+packetbuf_attr_copyfrom                           contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+packetbuf_attr_copyto                             contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+packetbuf_attrs                                   contiki-cc2538dk.a(packetbuf.o)
+packetbuf_clear                                   contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(rime.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+packetbuf_clear_hdr                               contiki-cc2538dk.a(packetbuf.o)
+packetbuf_compact                                 contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(framer.o)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(rime.o)
+packetbuf_copyfrom                                contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+                                                  cc2538-demo.co
+packetbuf_copyto                                  contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(queuebuf.o)
+packetbuf_copyto_hdr                              contiki-cc2538dk.a(packetbuf.o)
+packetbuf_datalen                                 contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  cc2538-demo.co
+packetbuf_dataptr                                 contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+                                                  cc2538-demo.co
+packetbuf_hdr_remove                              contiki-cc2538dk.a(packetbuf.o)
+packetbuf_hdralloc                                contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+packetbuf_hdrlen                                  contiki-cc2538dk.a(packetbuf.o)
+packetbuf_hdrptr                                  contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+packetbuf_hdrreduce                               contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+packetbuf_holds_broadcast                         contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+packetbuf_set_addr                                contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(broadcast.o)
+packetbuf_set_attr                                contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(chameleon-bitop)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(chameleon.o)
+                                                  contiki-cc2538dk.a(nullsec.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(csma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+packetbuf_set_datalen                             contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+packetbuf_totlen                                  contiki-cc2538dk.a(packetbuf.o)
+                                                  contiki-cc2538dk.a(contikimac-fram)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+printf                                            contiki-cc2538dk.a(dbg-printf.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+                                                  cc2538-demo.co
+process_alloc_event                               contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(serial-line.o)
+                                                  contiki-cc2538dk.a(sensors.o)
+process_current                                   contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(serial-line.o)
+                                                  contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+process_exit                                      contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(autostart.o)
+process_init                                      contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+process_is_running                                contiki-cc2538dk.a(process.o)
+process_list                                      contiki-cc2538dk.a(process.o)
+process_nevents                                   contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(lpm.o)
+process_poll                                      contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(serial-line.o)
+                                                  contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+                                                  contiki-cc2538dk.a(crypto.o)
+                                                  contiki-cc2538dk.a(sensors.o)
+process_post                                      contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(serial-line.o)
+                                                  contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(sensors.o)
+process_post_synch                                contiki-cc2538dk.a(process.o)
+process_run                                       contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+process_start                                     contiki-cc2538dk.a(process.o)
+                                                  contiki-cc2538dk.a(serial-line.o)
+                                                  contiki-cc2538dk.a(ctimer.o)
+                                                  contiki-cc2538dk.a(autostart.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+putchar                                           contiki-cc2538dk.a(dbg.o)
+puts                                              contiki-cc2538dk.a(dbg.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+queuebuf_addr                                     contiki-cc2538dk.a(queuebuf.o)
+queuebuf_attr                                     contiki-cc2538dk.a(queuebuf.o)
+                                                  contiki-cc2538dk.a(csma.o)
+queuebuf_datalen                                  contiki-cc2538dk.a(queuebuf.o)
+queuebuf_dataptr                                  contiki-cc2538dk.a(queuebuf.o)
+queuebuf_debug_print                              contiki-cc2538dk.a(queuebuf.o)
+queuebuf_free                                     contiki-cc2538dk.a(queuebuf.o)
+                                                  contiki-cc2538dk.a(csma.o)
+queuebuf_init                                     contiki-cc2538dk.a(queuebuf.o)
+                                                  contiki-cc2538dk.a(rime.o)
+queuebuf_new_from_packetbuf                       contiki-cc2538dk.a(queuebuf.o)
+                                                  contiki-cc2538dk.a(csma.o)
+queuebuf_numfree                                  contiki-cc2538dk.a(queuebuf.o)
+queuebuf_to_packetbuf                             contiki-cc2538dk.a(queuebuf.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+queuebuf_update_attr_from_packetbuf               contiki-cc2538dk.a(queuebuf.o)
+                                                  contiki-cc2538dk.a(csma.o)
+queuebuf_update_from_packetbuf                    contiki-cc2538dk.a(queuebuf.o)
+random_init                                       contiki-cc2538dk.a(random.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+random_rand                                       contiki-cc2538dk.a(random.o)
+                                                  contiki-cc2538dk.a(framer-802154.o)
+                                                  contiki-cc2538dk.a(broadcast-annou)
+                                                  contiki-cc2538dk.a(csma.o)
+reset_handler                                     obj_cc2538dk/startup-gcc.o
+rime_driver                                       contiki-cc2538dk.a(rime.o)
+                                                  contiki-cc2538dk.a(nullsec.o)
+                                                  contiki-cc2538dk.a(netstack.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+rime_output                                       contiki-cc2538dk.a(rime.o)
+                                                  contiki-cc2538dk.a(abc.o)
+rime_sniffer_add                                  contiki-cc2538dk.a(rime.o)
+rime_sniffer_remove                               contiki-cc2538dk.a(rime.o)
+ringbuf_elements                                  contiki-cc2538dk.a(ringbuf.o)
+ringbuf_get                                       contiki-cc2538dk.a(ringbuf.o)
+                                                  contiki-cc2538dk.a(serial-line.o)
+ringbuf_init                                      contiki-cc2538dk.a(ringbuf.o)
+                                                  contiki-cc2538dk.a(serial-line.o)
+ringbuf_put                                       contiki-cc2538dk.a(ringbuf.o)
+                                                  contiki-cc2538dk.a(serial-line.o)
+ringbuf_size                                      contiki-cc2538dk.a(ringbuf.o)
+rt_callback                                       cc2538-demo.co
+rtimer_arch_init                                  contiki-cc2538dk.a(rtimer-arch.o)
+                                                  contiki-cc2538dk.a(rtimer.o)
+rtimer_arch_next_trigger                          contiki-cc2538dk.a(rtimer-arch.o)
+                                                  contiki-cc2538dk.a(lpm.o)
+rtimer_arch_now                                   contiki-cc2538dk.a(rtimer-arch.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(lpm.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+                                                  contiki-cc2538dk.a(clock.o)
+                                                  cc2538-demo.co
+rtimer_arch_schedule                              contiki-cc2538dk.a(rtimer-arch.o)
+                                                  contiki-cc2538dk.a(rtimer.o)
+rtimer_init                                       contiki-cc2538dk.a(rtimer.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+rtimer_isr                                        contiki-cc2538dk.a(rtimer-arch.o)
+                                                  obj_cc2538dk/startup-gcc.o
+rtimer_run_next                                   contiki-cc2538dk.a(rtimer.o)
+                                                  contiki-cc2538dk.a(rtimer-arch.o)
+rtimer_set                                        contiki-cc2538dk.a(rtimer.o)
+                                                  cc2538-demo.co
+sensors                                           contiki-cc2538dk.a(smartrf-sensors)
+                                                  contiki-cc2538dk.a(sensors.o)
+sensors_changed                                   contiki-cc2538dk.a(sensors.o)
+                                                  contiki-cc2538dk.a(button-sensor.o)
+sensors_event                                     contiki-cc2538dk.a(sensors.o)
+                                                  cc2538-demo.co
+sensors_find                                      contiki-cc2538dk.a(sensors.o)
+sensors_first                                     contiki-cc2538dk.a(sensors.o)
+sensors_flags                                     contiki-cc2538dk.a(smartrf-sensors)
+                                                  contiki-cc2538dk.a(sensors.o)
+sensors_next                                      contiki-cc2538dk.a(sensors.o)
+sensors_process                                   contiki-cc2538dk.a(sensors.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+serial_line_event_message                         contiki-cc2538dk.a(serial-line.o)
+                                                  cc2538-demo.co
+serial_line_init                                  contiki-cc2538dk.a(serial-line.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+serial_line_input_byte                            contiki-cc2538dk.a(serial-line.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+serial_line_process                               contiki-cc2538dk.a(serial-line.o)
+set_bits                                          contiki-cc2538dk.a(chameleon-bitop)
+set_bits_in_byte                                  contiki-cc2538dk.a(chameleon-bitop)
+strlen                                            /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+                                                  contiki-cc2538dk.a(sensors.o)
+strncmp                                           /usr/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strncmp.o)
+                                                  contiki-cc2538dk.a(sensors.o)
+sys_ctrl_get_io_clock                             contiki-cc2538dk.a(sys-ctrl.o)
+sys_ctrl_get_sys_clock                            contiki-cc2538dk.a(sys-ctrl.o)
+sys_ctrl_init                                     contiki-cc2538dk.a(sys-ctrl.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+sys_ctrl_reset                                    contiki-cc2538dk.a(sys-ctrl.o)
+                                                  cc2538-demo.co
+timer_expired                                     contiki-cc2538dk.a(timer.o)
+                                                  contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(button-sensor.o)
+timer_remaining                                   contiki-cc2538dk.a(timer.o)
+timer_reset                                       contiki-cc2538dk.a(timer.o)
+                                                  contiki-cc2538dk.a(etimer.o)
+timer_restart                                     contiki-cc2538dk.a(timer.o)
+                                                  contiki-cc2538dk.a(etimer.o)
+timer_set                                         contiki-cc2538dk.a(timer.o)
+                                                  contiki-cc2538dk.a(etimer.o)
+                                                  contiki-cc2538dk.a(button-sensor.o)
+uart0_isr                                         contiki-cc2538dk.a(uart.o)
+                                                  obj_cc2538dk/startup-gcc.o
+uart1_isr                                         contiki-cc2538dk.a(uart.o)
+                                                  obj_cc2538dk/startup-gcc.o
+uart_init                                         contiki-cc2538dk.a(uart.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+uart_set_input                                    contiki-cc2538dk.a(uart.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+uart_write_byte                                   contiki-cc2538dk.a(uart.o)
+                                                  contiki-cc2538dk.a(dbg.o)
+udma_channel_disable                              contiki-cc2538dk.a(udma.o)
+udma_channel_enable                               contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+udma_channel_get_mode                             contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+udma_channel_mask_clr                             contiki-cc2538dk.a(udma.o)
+udma_channel_mask_set                             contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+udma_channel_prio_set_default                     contiki-cc2538dk.a(udma.o)
+udma_channel_prio_set_high                        contiki-cc2538dk.a(udma.o)
+udma_channel_sw_request                           contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+udma_channel_use_alternate                        contiki-cc2538dk.a(udma.o)
+udma_channel_use_burst                            contiki-cc2538dk.a(udma.o)
+udma_channel_use_primary                          contiki-cc2538dk.a(udma.o)
+udma_channel_use_single                           contiki-cc2538dk.a(udma.o)
+udma_err_isr                                      contiki-cc2538dk.a(udma.o)
+                                                  obj_cc2538dk/startup-gcc.o
+udma_init                                         contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+udma_isr                                          contiki-cc2538dk.a(udma.o)
+                                                  obj_cc2538dk/startup-gcc.o
+udma_set_channel_assignment                       contiki-cc2538dk.a(udma.o)
+udma_set_channel_control_word                     contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+udma_set_channel_dst                              contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+udma_set_channel_src                              contiki-cc2538dk.a(udma.o)
+                                                  contiki-cc2538dk.a(cc2538-rf.o)
+usb_isr                                           obj_cc2538dk/startup-gcc.o
+vdd3_sensor                                       contiki-cc2538dk.a(vdd3-sensor.o)
+                                                  contiki-cc2538dk.a(smartrf-sensors)
+                                                  cc2538-demo.co
+vectors                                           obj_cc2538dk/startup-gcc.o
+watchdog_init                                     contiki-cc2538dk.a(watchdog.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+watchdog_periodic                                 contiki-cc2538dk.a(watchdog.o)
+                                                  contiki-cc2538dk.a(nullrdc.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
+watchdog_reboot                                   contiki-cc2538dk.a(watchdog.o)
+                                                  cc2538-demo.co
+watchdog_start                                    contiki-cc2538dk.a(watchdog.o)
+                                                  contiki-cc2538dk.a(contiki-main.o)
